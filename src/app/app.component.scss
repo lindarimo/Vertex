@@ -70,15 +70,6 @@ element.style{
     margin-bottom:20px
 }
 
-
-
-.bnav{
-    margin-top:5px;
-    margin-bottom:10%;
-    margin-left:19%;
-
-}
-
 .footer{
     height:150px;
     background-color: #444444;
@@ -140,82 +131,6 @@ element.style{
 .glyphicon{
     color: black;
 }
-/*SLIDESHOW*/
-* {box-sizing:border-box}
-.slideShow {
-    margin-top: 3%;
-}
-/*CONTAINER SLIDESHOW*/
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-.mySlides {
-    display: none;
-}
-/*BOTTONI NEXT & PREVIOUS*/
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-}
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
-    background-color: rgba(255,140,0,0.8);
-    color: dimgrey;
-    text-decoration: none;
-}
-/*TESTO DELLA SLIDESHOW*/
-.text {
-    color: white;
-    font-family: Roboto;
-    font-size: 35px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-/*NUMERI DELLA SLIDESHOW*/
-.numbertext {
-    color: white;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-.active:hover {
-    background-color: indianred;
-}
-/*ANIMAZIONE DI TRANSIZIONE*/
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 6.5s;
-    animation-name: fade;
-    animation-duration: 6.5s;
-}
-@-webkit-keyframes fade {
-    from {opacity: .5}
-    to {opacity: 1}
-}
-@keyframes fade {
-    from {opacity: .5}
-    to {opacity: 1}
-}
-
-
 
 #colgoogle {position: relative;}
 
