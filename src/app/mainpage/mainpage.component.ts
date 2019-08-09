@@ -9,6 +9,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   imports: [NgbModule],
 })
-export class MainPageComponent {
-  images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
+export class MainPageComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 }
