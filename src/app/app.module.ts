@@ -8,6 +8,7 @@ import { MainPageComponent } from './mainpage/mainpage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
 import { ServiziComponent } from './servizi/servizi.component';
+import { PalestraComponent } from './palestra/palestra.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +16,7 @@ import { ServiziComponent } from './servizi/servizi.component';
     MainPageComponent,
     FooterComponent,
     ServiziComponent,
+    PalestraComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Palestra</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a [routerLink]="['/route', id]" class="btn btn-primary">Visita il sito</a>
+                        <button (click)="goToPalestra()" class="btn btn-primary">Visita il sito</button>
                     </div>
                 </div>
             </div>
@@ -17,7 +17,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Centro medico</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Visita il sito</a>
+                        <a routerLink="/palestra"><button (click)="goToCentroMedico()" class="btn btn-primary">Visita il
+                                sito</button></a>
                     </div>
                 </div>
             </div>
