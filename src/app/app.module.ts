@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ServiziComponent } from './servizi/servizi.component';
 import { PalestraComponent } from './palestra/palestra.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { CentromedicoComponent } from './centromedico/centromedico.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     FooterComponent,
     ServiziComponent,
     PalestraComponent,
+    CentromedicoComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { PalestraComponent } from './palestra/palestra.component';
 import { ServiziComponent } from './servizi/servizi.component';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { CentromedicoComponent } from './centromedico/centromedico.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'palestra',
     component: PalestraComponent
+  },
+  {
+    path: 'centromedico',
+    component: CentromedicoComponent
   }
 ];
 

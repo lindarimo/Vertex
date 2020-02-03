@@ -5,21 +5,21 @@
     </button>
 
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" style="cursor:pointer">
             <li class="nav-item active">
                 <a class="nav-link">Home</a>
             </li>
             <li class="nav-item dropdown mr-auto">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
                     (click)="show=!show">Servizi</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"
                     [ngClass]="{show: show === true}">
-                    <a class="dropdown-item" href="#">Palestra</a>
-                    <a class="dropdown-item" href="#">Centro medico</a>
+                    <a class="dropdown-item" routerLink="/palestra">Palestra</a>
+                    <a class="dropdown-item" routerLink="/centromedico">Centro medico</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link">Chis iamo</a>
+                <a class="nav-link">Chi siamo</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link">Dove siamo</a>
