@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-centromedico',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CentromedicoComponent implements OnInit {
 
-  constructor() { }
+  servizi: any = [];
 
+  constructor(private httpClient: HttpClient) { }
   ngOnInit() {
+    this.httpClient.get('assets/servizi.json').subscribe(data => {
+      console.log(data);
+      this.servizi = data;
+    });
   }
-
 }

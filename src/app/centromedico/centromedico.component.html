@@ -3,12 +3,15 @@
 
 <div class="jumbotron copertina" style="margin-bottom:0">
     <div style="text-align: center;">
-        <h3>Il nostro centro medico</h3>       
+        <h3>Il nostro centro medico</h3>
     </div>
-    
+
 </div>
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
+        <ul>
+            <li *ngFor="let servizio of servizi">{{servizio.servizio}}</li>
+        </ul>
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
                 <div class="col-md-4">
