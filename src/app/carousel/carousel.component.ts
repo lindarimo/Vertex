@@ -2,14 +2,14 @@ import { Component, OnInit, NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-mainpage',
-  templateUrl: './mainpage.component.html',
-  styleUrls: ['./mainpage.component.scss']
+  selector: 'app-carousel',
+  templateUrl: './carousel.component.html',
+  styleUrls: ['./carousel.component.scss']
 })
 @NgModule({
   imports: [NgbModule],
 })
-export class MainPageComponent implements OnInit {
+export class CarouselComponent implements OnInit {
 
   constructor() { }
 
