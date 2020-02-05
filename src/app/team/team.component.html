@@ -1,0 +1,33 @@
+<section style="background-color: #5D9FD1;">
+    <div class="container">
+        <div class="page-section text-center">
+            <h2 class="page-section-title--white">I nostri specialisti</h2>
+            <hr>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/user.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="page-section-paragraph-title">Matteo Carbone</h5>
+                        <ul>
+                            <li *ngFor="let servizio of servizi; index as i">{{servizio.specialista}}</li>
+                        </ul>
+                        <p class="page-section-paragraph">With supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <div class="my_class" (click)="toggleDiv()" [ngClass]="status ? 'success' : 'danger'">
+                            Visualizza CV
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/user.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="page-section-paragraph-title">Centro medico</h5>
+                        <p class="page-section-paragraph">With supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <a routerLink="/centromedico" class="button-light">Visita il sito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

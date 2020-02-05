@@ -1,4 +1,20 @@
 [
-{"servizio" : "Visita ortopedica", "specialista" : "Marco Galli", "specializzazione" : "Medico ortopedico"},
-{"servizio" : "Visita fisioterapica", "specialista" : "Mario Rossi", "specializzazione" : "Fisioterapista"}
+    {
+        "servizio": "Personal training",
+        "specialista": "Matteo Carbone",
+        "specializzazione": "Personal trainer",
+        "cv": "Molto bravo ad allenare gente "
+    },
+    {
+        "servizio": "Visita ortopedica",
+        "specialista": "Marco Galli",
+        "specializzazione": "Medico ortopedico",
+        "cv": ""
+    },
+    {
+        "servizio": "Visita fisioterapica",
+        "specialista": "Mario Rossi",
+        "specializzazione": "Fisioterapista",
+        "cv": ""
+    }
 ]

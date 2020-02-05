@@ -12,6 +12,7 @@ import { ServiziComponent } from './servizi/servizi.component';
 import { PalestraComponent } from './palestra/palestra.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CentromedicoComponent } from './centromedico/centromedico.component';
+import { TeamComponent } from './team/team.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { CentromedicoComponent } from './centromedico/centromedico.component';
     ServiziComponent,
     PalestraComponent,
     CentromedicoComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,
