@@ -14,9 +14,4 @@ export class ServiziComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  public goToPalestra(): void {
-    this.router.navigate(['palestra']);
-  }
-
 }
