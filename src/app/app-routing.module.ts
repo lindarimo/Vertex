@@ -8,7 +8,7 @@ import { CentromedicoComponent } from './centromedico/centromedico.component';
 
 const routes: Routes = [
   {
-    path: 'homepage',
+    path: '',
     component: HomepageComponent
   },
   {
