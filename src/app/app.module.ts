@@ -13,6 +13,7 @@ import { PalestraComponent } from './palestra/palestra.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CentromedicoComponent } from './centromedico/centromedico.component';
 import { TeamComponent } from './team/team.component';
+import { SpecialistaComponent } from './team/specialista/specialista.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { TeamComponent } from './team/team.component';
     PalestraComponent,
     CentromedicoComponent,
     TeamComponent,
+    SpecialistaComponent,
   ],
   imports: [
     BrowserModule,
