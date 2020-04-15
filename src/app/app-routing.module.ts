@@ -5,8 +5,8 @@ import { ServiziComponent } from './servizi/servizi.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CentromedicoComponent } from './centromedico/centromedico.component';
 import { ActivatedRoute } from '@angular/router';
-import { TeamComponent } from './team/team.component';
-import { SpecialistaComponent } from './team/specialista/specialista.component';
+import { SpecialistaComponent } from './teamCards/specialista/specialista.component';
+import { TeamCardsComponent } from './teamCards/teamCards.component';
 
 const routes: Routes = [
   {
@@ -26,11 +26,11 @@ const routes: Routes = [
     component: CentromedicoComponent
   },
   {
-    path: 'team',
-    component: TeamComponent
+    path: 'team-cards',
+    component: TeamCardsComponent
   },
   {
-    path: 'team/:id',
+    path: 'team-cards/:id',
     component: SpecialistaComponent
   },
   /* {

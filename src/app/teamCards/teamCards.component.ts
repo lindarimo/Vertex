@@ -3,11 +3,11 @@ import { HomepageComponent } from '../homepage/homepage.component';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
 @Component({
-  selector: 'app-team',
-  templateUrl: './team.component.html',
-  styleUrls: ['./team.component.scss']
+  selector: 'app-team-cards',
+  templateUrl: './teamCards.component.html',
+  styleUrls: ['./teamCards.component.scss']
 })
-export class TeamComponent implements OnInit {
+export class TeamCardsComponent implements OnInit {
 
   public serviziList;
   public status = false;
@@ -21,13 +21,14 @@ export class TeamComponent implements OnInit {
     private httpClient: HttpClient) { }
 
   ngOnInit() {
-    this.httpClient.get('assets/servizi.json').subscribe(data => {
-      console.log(data);
-      this.serviziList = data;
-    });
+    this.loadServizi();
   }
   onSelect(servizio): void {
     this.selectedServizio = servizio;
   }
-
+  async loadServizi() {
+    this.serviziList = await this.httpClient.get('assets/servizi.json').toPromise();
+    console.log(this.serviziList);
+    localStorage.setItem('Lista di servizi', JSON.stringify(this.serviziList));
+  }
 }

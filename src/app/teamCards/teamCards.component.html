@@ -9,7 +9,8 @@
                     <div class="card-body">
                         <h5 class="page-section-paragraph-title">{{servizio.specialista}}</h5>
                         <p class="page-section-paragraph">{{servizio.cv}}</p>
-                        <a [routerLink]="['/team', servizio.id]" (click)="onSelect(servizio)" class="button-light">Info</a>
+                        <a [routerLink]="['/team-cards', servizio.id, serviziList]" (click)="onSelect(servizio)"
+                            class="button-light">Info</a>
                     </div>
                 </div>
             </div>
