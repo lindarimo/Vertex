@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { HomepageComponent } from '../homepage/homepage.component';
+import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ActivatedRoute } from '@angular/router';
+import { VertexService } from '../vertex.service';
 @Component({
   selector: 'app-team-cards',
   templateUrl: './teamCards.component.html',
@@ -9,16 +8,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class TeamCardsComponent implements OnInit {
 
-  public serviziList;
+  @Input() serviziList: any;
+  @Input() selectedServizio: any;
   public status = false;
-  public selectedServizio;
-
-  toggleDiv() {
-    this.status = !this.status;
-  }
 
   constructor(
-    private httpClient: HttpClient) { }
+    private vertexService: VertexService ) { }
 
   ngOnInit() {
     this.loadServizi();
@@ -26,9 +21,13 @@ export class TeamCardsComponent implements OnInit {
   onSelect(servizio): void {
     this.selectedServizio = servizio;
   }
-  async loadServizi() {
-    this.serviziList = await this.httpClient.get('assets/servizi.json').toPromise();
-    console.log(this.serviziList);
-    localStorage.setItem('Lista di servizi', JSON.stringify(this.serviziList));
+  toggleDiv() {
+    this.status = !this.status;
+  }
+  loadServizi() {
+    // this.vertexService.getServizi().subscribe(data => {
+    //   console.log(data);
+    //   this.serviziList = data;
+    // });
   }
 }
