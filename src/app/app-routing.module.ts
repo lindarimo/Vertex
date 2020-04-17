@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PalestraComponent } from './components/palestra/palestra.component';
-import { ServiziComponent } from './components/servizi/servizi.component';
+import { PalestraComponent } from './components/servizi-detail/palestra/palestra.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
-import { CentromedicoComponent } from './components/centromedico/centromedico.component';
-import { TeamCardsComponent } from './components/teamCards/teamCards.component';
+import { CentromedicoComponent } from './components/servizi-detail/centromedico/centromedico.component';
+import { TeamCardsComponent } from './components/team-cards/team-cards.component';
 import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { SpecialistaComponent } from './components/specialista/specialista.component';
+import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
 
 const routes: Routes = [
   {
@@ -15,7 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'servizi',
-    component: ServiziComponent
+    component: ServiziCardsComponent
   },
   {
     path: 'palestra',

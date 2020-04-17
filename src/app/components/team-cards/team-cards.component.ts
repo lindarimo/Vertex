@@ -3,8 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { VertexService } from '../../vertex.service';
 @Component({
   selector: 'app-team-cards',
-  templateUrl: './teamCards.component.html',
-  styleUrls: ['./teamCards.component.scss']
+  templateUrl: './team-cards.component.html',
+  styleUrls: ['./team-cards.component.scss']
 })
 export class TeamCardsComponent implements OnInit {
 
