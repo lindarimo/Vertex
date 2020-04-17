@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { VertexService } from '../vertex.service';
+import { VertexService } from '../../vertex.service';
 @Component({
   selector: 'app-team-cards',
   templateUrl: './teamCards.component.html',

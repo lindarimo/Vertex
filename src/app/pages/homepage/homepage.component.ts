@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { VertexService } from '../vertex.service';
+import { VertexService } from '../../vertex.service';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
