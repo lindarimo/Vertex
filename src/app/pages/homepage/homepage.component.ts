@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { VertexService } from '../../vertex.service';
+import { Specialista } from 'src/app/model';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -8,7 +9,7 @@ import { VertexService } from '../../vertex.service';
 })
 export class HomepageComponent implements OnInit {
 
-  public specialistiList: any;
+  public specialistiList: Specialista[];
   constructor(
     private vertexService: VertexService
   ) { }

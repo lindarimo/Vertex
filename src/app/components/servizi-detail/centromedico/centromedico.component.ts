@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Specialista } from 'src/app/model';
 
 @Component({
   selector: 'app-centromedico',
@@ -8,13 +9,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CentromedicoComponent implements OnInit {
 
-  specialisti: any = [];
+  specialisti: Specialista[] = [];
 
   constructor(private httpClient: HttpClient) { }
   ngOnInit() {
-    this.httpClient.get('assets/servizi.json').subscribe(data => {
-      console.log(data);
-      this.specialisti = data;
-    });
   }
 }

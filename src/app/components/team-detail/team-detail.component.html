@@ -1,13 +1,13 @@
-<div class="container">
+<div>
     <div class="row team-list-img">
         <span *ngFor="let specialista of specialistiList; index as i">
-            <a data-toggle="collapse" data-target="#detail{{i}}" aria-expanded="false" (click)="onShowDetail(i)">
-                <img src="../../../assets/io.jpg" alt="Avatar">
+            <a (click)="onShowDetail(specialista)">
+                <img src="../../../assets/io.jpg" alt="Avatar" class="imgSpecialista">
             </a>
-
-            <p class="collapse collapse-detail" id="detail{{i}}">
-                {{specialista.cv}}
-            </p>
         </span>
+    </div>
+    <div class="arrowUp"></div>
+    <div id="dettaglioSpecialista">
+        {{selectedSpecialista?.cv}}
     </div>
 </div>

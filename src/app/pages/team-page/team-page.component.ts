@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { VertexService } from 'src/app/vertex.service';
+import { Specialista } from 'src/app/model';
 
 @Component({
   selector: 'app-team-page',
@@ -7,7 +8,7 @@ import { VertexService } from 'src/app/vertex.service';
   styleUrls: ['./team-page.component.scss']
 })
 export class TeamPageComponent implements OnInit {
-  public specialistiList: any;
+  public specialistiList: Specialista[];
 
   constructor(
     private vertexService: VertexService

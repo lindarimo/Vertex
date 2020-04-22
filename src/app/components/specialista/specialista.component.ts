@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { VertexService } from 'src/app/vertex.service';
+import { Specialista } from 'src/app/model';
 
 @Component({
   selector: 'app-specialista',
@@ -10,8 +11,8 @@ import { VertexService } from 'src/app/vertex.service';
 })
 
 export class SpecialistaComponent implements OnInit {
-  @Input() selectedSpecialista: any;
-  @Input() specialistiList: any;
+  @Input() selectedSpecialista: Specialista[];
+  @Input() specialistiList: Specialista;
   // public serviziList;
   constructor(
     private vertexService: VertexService) { }
