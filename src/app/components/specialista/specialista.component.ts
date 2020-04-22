@@ -10,16 +10,16 @@ import { VertexService } from 'src/app/vertex.service';
 })
 
 export class SpecialistaComponent implements OnInit {
-  @Input() selectedServizio: any;
-  @Input() serviziList: any;
+  @Input() selectedSpecialista: any;
+  @Input() specialistiList: any;
   // public serviziList;
   constructor(
     private vertexService: VertexService) { }
 
   ngOnInit() {
-    this.loadServizi();
+    this.loadSpecialisti();
   }
-  loadServizi() {
+  loadSpecialisti() {
     // this.vertexService.getServizi().subscribe(data => {
     //   console.log(data);
     //   this.serviziList = data;

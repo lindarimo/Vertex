@@ -11,7 +11,7 @@ export class VertexService {
     private httpClient: HttpClient,
   ) { }
 
-  public getServizi(): Observable<any> {
-    return this.httpClient.get('assets/servizi.json');
+  public getSpecialisti(): Observable<any> {
+    return this.httpClient.get('assets/specialisti.json');
   }
 }

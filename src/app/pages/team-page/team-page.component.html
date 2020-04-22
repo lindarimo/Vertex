@@ -1,8 +1,17 @@
 <!--<a routerLink="/">Go to Home</a>-->
 <app-navbar></app-navbar>
 
-<app-team-detail></app-team-detail>
-
-<app-servizi-side-menu></app-servizi-side-menu>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <app-servizi-side-menu></app-servizi-side-menu>
+            </div>
+            <div class="col-md-8">
+                <app-team-detail [serviziList]="serviziList"></app-team-detail>
+            </div>
+        </div>
+    </div>
+</div>
 
 <app-footer></app-footer>

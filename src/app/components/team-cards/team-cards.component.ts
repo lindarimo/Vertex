@@ -8,8 +8,8 @@ import { VertexService } from '../../vertex.service';
 })
 export class TeamCardsComponent implements OnInit {
 
-  @Input() serviziList: any;
-  @Input() selectedServizio: any;
+  @Input() specialistiList: any;
+  @Input() selectedSpecialista: any;
   public status = false;
 
   constructor(
@@ -18,8 +18,8 @@ export class TeamCardsComponent implements OnInit {
   ngOnInit() {
     this.loadServizi();
   }
-  onSelect(servizio): void {
-    this.selectedServizio = servizio;
+  onSelect(specialista): void {
+    this.selectedSpecialista = specialista;
   }
   toggleDiv() {
     this.status = !this.status;

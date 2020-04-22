@@ -4,16 +4,19 @@
             <h2 class="page-section-title--white">I nostri specialisti</h2>
             <hr>
             <div class="card-deck">
-                <div class="card" *ngFor="let servizio of serviziList; index as i">
+                <div class="card" *ngFor="let specialista of specialistiList; index as i">
                     <img class="card-img-top" src="../../assets/user.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="page-section-paragraph-title">{{servizio.specialista}}</h5>
-                        <p class="page-section-paragraph">{{servizio.cv}}</p>
-                        <a [routerLink]="['/team-page', servizio.id]" (click)="onSelect(servizio)"
+                        <h5 class="page-section-paragraph-title">{{specialista.specialista}}</h5>
+                        <p class="page-section-paragraph">{{specialista.cv}}</p>
+                        <a [routerLink]="['/team-page', specialista.id]" (click)="onSelect(specialista)"
                             class="button-light">Info</a>
                     </div>
                 </div>
             </div>
         </div>
+        <a download="filename" target="_blank" href="../../assets/files/prova.pdf">
+            Click here to download file
+        </a>
     </div>
 </section>

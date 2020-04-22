@@ -8,13 +8,13 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CentromedicoComponent implements OnInit {
 
-  servizi: any = [];
+  specialisti: any = [];
 
   constructor(private httpClient: HttpClient) { }
   ngOnInit() {
     this.httpClient.get('assets/servizi.json').subscribe(data => {
       console.log(data);
-      this.servizi = data;
+      this.specialisti = data;
     });
   }
 }

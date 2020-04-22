@@ -1,1 +1,21 @@
-<p>team-detail works!</p>
+<div class="container">
+    <div class="row">
+        <img src="../../../assets/io.jpg" alt="Avatar" *ngFor="let specialista of specialistiList; index as i">
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row team-list-img">
+        <span *ngFor="let specialista of specialistiList; index as i">
+            <a data-toggle="collapse" data-target="#detail{{i}}" aria-expanded="false" (click)="onShowDetail(i)">
+                <img src="../../../assets/io.jpg" alt="Avatar">
+            </a>
+
+            <p class="collapse collapse-detail" id="detail{{i}}">
+                {{specialista.cv}}
+            </p>
+        </span>
+    </div>
+</div>

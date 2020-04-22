@@ -8,18 +8,18 @@ import { VertexService } from '../../vertex.service';
 })
 export class HomepageComponent implements OnInit {
 
-  public serviziList: any;
+  public specialistiList: any;
   constructor(
     private vertexService: VertexService
   ) { }
 
   ngOnInit() {
-    this.loadServizi();
+    this.loadSpecialisti();
   }
-  loadServizi() {
-    this.vertexService.getServizi().subscribe(data => {
+  loadSpecialisti() {
+    this.vertexService.getSpecialisti().subscribe(data => {
       console.log(data);
-      this.serviziList = data;
+      this.specialistiList = data;
     });
   }
 }
