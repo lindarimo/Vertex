@@ -1,12 +1,4 @@
 <div class="container">
-    <div class="row">
-        <img src="../../../assets/io.jpg" alt="Avatar" *ngFor="let specialista of specialistiList; index as i">
-    </div>
-</div>
-
-
-
-<div class="container">
     <div class="row team-list-img">
         <span *ngFor="let specialista of specialistiList; index as i">
             <a data-toggle="collapse" data-target="#detail{{i}}" aria-expanded="false" (click)="onShowDetail(i)">

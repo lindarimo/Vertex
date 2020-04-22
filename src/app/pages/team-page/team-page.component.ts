@@ -7,7 +7,7 @@ import { VertexService } from 'src/app/vertex.service';
   styleUrls: ['./team-page.component.scss']
 })
 export class TeamPageComponent implements OnInit {
-  public serviziList: any;
+  public specialistiList: any;
 
   constructor(
     private vertexService: VertexService
@@ -19,7 +19,7 @@ export class TeamPageComponent implements OnInit {
   loadServizi() {
     this.vertexService.getSpecialisti().subscribe(data => {
       console.log(data);
-      this.serviziList = data;
+      this.specialistiList = data;
     });
   }
 }

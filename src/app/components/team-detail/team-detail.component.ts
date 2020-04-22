@@ -6,7 +6,7 @@ import * as $ from 'jquery';
   styleUrls: ['./team-detail.component.scss']
 })
 export class TeamDetailComponent implements OnInit {
-  @Input() specialistaList: any;
+  @Input() specialistiList: any;
 
   // detailOpen = false;
   // showDetail = false;
