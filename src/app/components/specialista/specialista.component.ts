@@ -12,8 +12,9 @@ import { Specialista } from 'src/app/model';
 
 export class SpecialistaComponent implements OnInit {
   @Input() selectedSpecialista: Specialista[];
-  @Input() specialistiList: Specialista;
-  // public serviziList;
+  @Input() specPalestraList: Specialista;
+  @Input() specCentroList: Specialista;
+
   constructor(
     private vertexService: VertexService) { }
 

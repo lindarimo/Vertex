@@ -1,2 +1,16 @@
-.copertina { background-image: url("../../../../assets/fisio.jpg"); background-position: center;
-    background-repeat: no-repeat; background-size: cover;}
+.copertina { 
+    background-image: url("../../../../assets/fisio.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-top: 70px;
+}
+.gray-bg {
+    background-color: #f2f2f2
+}
+.pr60 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}

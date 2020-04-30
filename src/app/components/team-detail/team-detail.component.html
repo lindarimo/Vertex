@@ -1,13 +1,62 @@
-<div>
-    <div class="row team-list-img">
-        <span *ngFor="let specialista of specialistiList; index as i">
-            <a (click)="onShowDetail(specialista)">
-                <img src="../../../assets/io.jpg" alt="Avatar" class="imgSpecialista">
-            </a>
-        </span>
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1>Il nostro team</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
+            etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p id="my_styles">
+            <button type="submit" class="btn btn-lg my-2" id="palestra">Palestra</button>
+            <button type="submit" class="btn btn-lg my-2" id="centroMedico">Centro medico</button>
+        </p>
     </div>
-    <div class="arrowUp"></div>
-    <div id="dettaglioSpecialista">
-        {{selectedSpecialista?.cv}}
+</section>
+
+<div *ngIf="isPalestraSelected === true" class="album py-5 bg-light">
+    <div class="container">
+        <div class="row team-list-img container tab-pane active">
+            <span *ngFor="let specialista of specPalestraList; index as i">
+                <a (click)="onShowDetail(specialista)">
+                    <img src="../../../assets/Specialisti/Palestra/{{specialista.id}}.jpg" alt="Avatar"
+                        class="imgSpecialista">
+                </a>
+            </span>
+        </div>
+        <div class="arrowUp"></div>
+        <div id="dettaglioSpecialista">
+            <h3>
+                {{selectedSpecialista?.specialista}}
+            </h3>
+            <h5 class="subtitle">
+                {{selectedSpecialista?.specializzazione}}
+            </h5>
+            <hr>
+            <p class="cv">
+                {{selectedSpecialista?.cv}}
+            </p>
+        </div>
+    </div>
+</div>
+<div *ngIf="isPalestraSelected === false" class="album py-5 bg-light">
+    <div class="container">
+        <div class="row team-list-img container tab-pane active">
+            <span *ngFor="let specialista of specCentroList; index as i">
+                <a (click)="onShowDetail(specialista)">
+                    <img src="../../../assets/Specialisti/Centro Medico/{{specialista.id}}.jpg" alt="Avatar"
+                        class="imgSpecialista">
+                </a>
+            </span>
+        </div>
+        <div class="arrowUp"></div>
+        <div id="dettaglioSpecialista">
+            <h3>
+                {{selectedSpecialista?.specialista}}
+            </h3>
+            <h5 class="subtitle">
+                {{selectedSpecialista?.specializzazione}}
+            </h5>
+            <hr>
+            <p class="cv">
+                {{selectedSpecialista?.cv}}
+            </p>
+        </div>
     </div>
 </div>

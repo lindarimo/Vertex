@@ -9,7 +9,8 @@ import { Specialista } from 'src/app/model';
 })
 export class TeamCardsComponent implements OnInit {
 
-  @Input() specialistiList: Specialista[];
+  @Input() specPalestraList: Specialista[];
+  @Input() specCentroList: Specialista[];
   @Input() selectedSpecialista: Specialista;
   public status = false;
 
@@ -17,18 +18,11 @@ export class TeamCardsComponent implements OnInit {
     private vertexService: VertexService ) { }
 
   ngOnInit() {
-    this.loadServizi();
   }
   onSelect(specialista): void {
     this.selectedSpecialista = specialista;
   }
   toggleDiv() {
     this.status = !this.status;
-  }
-  loadServizi() {
-    // this.vertexService.getServizi().subscribe(data => {
-    //   console.log(data);
-    //   this.serviziList = data;
-    // });
   }
 }

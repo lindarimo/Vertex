@@ -9,7 +9,9 @@ import { Specialista } from 'src/app/model';
 })
 export class HomepageComponent implements OnInit {
 
-  public specialistiList: Specialista[];
+  public specPalestraList: Specialista[];
+  public specCentroList: Specialista[];
+
   constructor(
     private vertexService: VertexService
   ) { }
@@ -18,9 +20,13 @@ export class HomepageComponent implements OnInit {
     this.loadSpecialisti();
   }
   loadSpecialisti() {
-    this.vertexService.getSpecialisti().subscribe(data => {
+    this.vertexService.getSpecPalestra().subscribe(data => {
       console.log(data);
-      this.specialistiList = data;
+      this.specPalestraList = data;
+    });
+    this.vertexService.getSpecCentro().subscribe(data => {
+      console.log(data);
+      this.specCentroList = data;
     });
   }
 }

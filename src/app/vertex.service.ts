@@ -12,7 +12,10 @@ export class VertexService {
     private httpClient: HttpClient,
   ) { }
 
-  public getSpecialisti(): Observable<Specialista[]> {
-    return this.httpClient.get<Specialista[]>('assets/specialisti.json');
+  public getSpecPalestra(): Observable<Specialista[]> {
+    return this.httpClient.get<Specialista[]>('assets/specialisti palestra.json');
+  }
+  public getSpecCentro(): Observable<Specialista[]> {
+    return this.httpClient.get<Specialista[]>('assets/specialisti centro medico.json');
   }
 }

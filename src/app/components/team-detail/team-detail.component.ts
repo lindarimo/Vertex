@@ -7,18 +7,28 @@ import { Specialista } from 'src/app/model';
   styleUrls: ['./team-detail.component.scss']
 })
 export class TeamDetailComponent implements OnInit {
-  @Input() specialistiList: Specialista[];
+
+  constructor() { }
+  @Input() specPalestraList: Specialista[];
+  @Input() specCentroList: Specialista[];
 
   public selectedSpecialista: Specialista;
-
-  // detailOpen = false;
-  // showDetail = false;
-  // toggleNavbar() {
-  //   this.detailOpen = !this.detailOpen;
-  // }
-  constructor() { }
+  public isPalestraSelected: boolean;
 
   ngOnInit() {
+    this.isPalestraSelected = true;
+    const self = this;
+    // Gestisco la selezione dei bottoni
+    $('#my_styles .btn').on('click', function() {
+      $('#my_styles .btn').removeClass('activeBtn');
+      $(this).toggleClass('activeBtn');
+      if ($(this).attr('id') === 'centroMedico') {
+        self.isPalestraSelected = false;
+      } else {
+        self.isPalestraSelected = true;
+      }
+    });
+    // Gestisco la visualizzazione del fumetto alla selezione di uno specialista
     if (!this.selectedSpecialista) {
       $('.arrowUp').hide();
       $('#dettaglioSpecialista').hide();
