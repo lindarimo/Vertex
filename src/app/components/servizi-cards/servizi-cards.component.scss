@@ -1,8 +1,56 @@
-.card-group.row{
-    margin-right: -20px;
-    margin-left: -20px;
+section.content-section {
+  padding: 90px 0;
+}
+.content-section .section-header {
+  margin-bottom: 60px;
+}
+.content-section .section-title {
+  margin-bottom: 60px;
+  font-size: 1.618em;
+}
+.underline {
+  position: relative;
+  padding-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #2b2c2d;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.content-section .section-subtitle {
+  color: #787878;
+  font-weight: 600;
+}
+p {
+  margin-bottom: 1.75em;
+}
+.feature-box {
+  background: #f2f2f2;
+  margin-bottom: 25px;
+  padding: 25px;
+  text-align: center;
+}
+.feature-box .icon {
+  color: #3498db;
+  font-size: 52px;
+  display: block;
+  margin-bottom: 12px;
+}
+.feature-box .feature-desc {
+  text-align: left;
+  color: #787878;
+}
+@media (min-width: 600px) {
+  h5 {
+      font-size: calc( 14.20116px + (16.56802 - 14.20116) * ((100vw - 600px) / (1140 - 600)));
   }
-.card-group > [class^="col-"], .card-group > [class^="col-"]{
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+}
+h5 {
+  line-height: 2.21813em;
+}
+.dumbbell {
+  width: 50px;
+}
