@@ -5,7 +5,8 @@
             <hr>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 deckContainer">
                 <div class="card" *ngFor="let specialista of specPalestraList; index as i">
-                    <img class="card-img-top" src="../../assets/user.png" alt="Card image cap">
+                    <img class="card-img-top" src="../../../assets/Specialisti/Palestra/{{specialista.id}}.jpg"
+                        alt="Avatar">
                     <div class="card-body">
                         <h3>{{specialista.specialista}}</h3>
                         <h5>{{specialista.specializzazione}}</h5>
@@ -15,7 +16,8 @@
                     </div>
                 </div>
                 <div class="card" *ngFor="let specialista of specCentroList; index as i">
-                    <img class="card-img-top" src="../../assets/user.png" alt="Card image cap">
+                    <img class="card-img-top" src="../../../assets/Specialisti/Centro Medico/{{specialista.id}}.jpg"
+                        alt="Avatar">
                     <div class="card-body">
                         <h3>{{specialista.specialista}}</h3>
                         <h5>{{specialista.specializzazione}}</h5>
