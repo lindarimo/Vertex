@@ -1,15 +1,17 @@
-<section style="background-color: #5D9FD1;">
-    <div class="container-fluid">
-        <div class="page-section text-center">
-            <h2 class="page-section-title--white">I nostri specialisti</h2>
-            <hr>
+<section class="content-section" style="background-color: #f2f2f2;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-header text-center">
+                <h3 class="section-title underline">I nostri specialisti</h3>
+            </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 deckContainer">
                 <div class="card" *ngFor="let specialista of specPalestraList; index as i">
                     <img class="card-img-top" src="../../../assets/Specialisti/Palestra/{{specialista.id}}.jpg"
                         alt="Avatar">
                     <div class="card-body">
-                        <h3>{{specialista.specialista}}</h3>
-                        <h5>{{specialista.specializzazione}}</h5>
+                        <h5>{{specialista.specialista}}</h5>
+                        <hr>
+                        <p class="section-subtitle">{{specialista.specializzazione}}</p>
                         <p>{{specialista.cv}}</p>
                         <button [routerLink]="['/team-page', specialista.id]" (click)="onSelect(specialista)"
                             class="btn">Info</button>
@@ -19,8 +21,9 @@
                     <img class="card-img-top" src="../../../assets/Specialisti/Centro Medico/{{specialista.id}}.jpg"
                         alt="Avatar">
                     <div class="card-body">
-                        <h3>{{specialista.specialista}}</h3>
-                        <h5>{{specialista.specializzazione}}</h5>
+                        <h5>{{specialista.specialista}}</h5>
+                        <hr>
+                        <p class="section-subtitle">{{specialista.specializzazione}}</p>
                         <p>{{specialista.cv}}</p>
                         <button [routerLink]="['/team-page', specialista.id]" (click)="onSelect(specialista)"
                             class="btn">Info</button>
