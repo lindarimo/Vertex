@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { VertexService } from '../../vertex.service';
 import { Specialista } from 'src/app/model';
 @Component({

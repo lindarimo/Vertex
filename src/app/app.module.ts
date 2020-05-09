@@ -17,8 +17,6 @@ import { SpecialistaComponent } from './components/specialista/specialista.compo
 import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
 import { TeamDetailComponent } from './components/team-detail/team-detail.component';
-import { ServiziPageComponent } from './pages/servizi-page/servizi-page.component';
-import { ServiziDetailComponent } from './components/servizi-detail/servizi-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +31,6 @@ import { ServiziDetailComponent } from './components/servizi-detail/servizi-deta
     SpecialistaComponent,
     TeamPageComponent,
     TeamDetailComponent,
-    ServiziPageComponent,
-    ServiziDetailComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,8 +54,6 @@ import { ServiziDetailComponent } from './components/servizi-detail/servizi-deta
     SpecialistaComponent,
     TeamPageComponent,
     TeamDetailComponent,
-    ServiziPageComponent,
-    ServiziDetailComponent,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA]

@@ -13,5 +13,6 @@ export class CentromedicoComponent implements OnInit {
 
   constructor(private httpClient: HttpClient) { }
   ngOnInit() {
+    window.scroll(0, 0);
   }
 }

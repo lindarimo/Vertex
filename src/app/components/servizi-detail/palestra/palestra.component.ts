@@ -10,6 +10,7 @@ export class PalestraComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.scroll(0, 0);
   }
 
 }
