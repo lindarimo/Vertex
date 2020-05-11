@@ -6,15 +6,21 @@
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 deckContainer">
                 <div class="card" *ngFor="let specialista of specPalestraList; index as i">
-                    <img class="card-img-top" src="../../../assets/Specialisti/Palestra/{{specialista.id}}.jpg"
-                        alt="Avatar">
-                    <div class="card-body">
-                        <h5>{{specialista.specialista}}</h5>
-                        <hr>
-                        <p class="section-subtitle">{{specialista.specializzazione}}</p>
-                        <p>{{specialista.cv}}</p>
-                        <button [routerLink]="['/team-page', specialista.id]" (click)="onSelect(specialista)"
-                            class="btn">Info</button>
+                    <div class="row">
+                        <div class="col-xs-2 col-md-6 col-lg-12">
+                            <img class="card-img-top" src="../../../assets/Specialisti/Palestra/{{specialista.id}}.jpg"
+                                alt="Avatar">
+                        </div>
+                        <div class="col-xs-2 col-md-6 col-lg-12">
+                            <div class="card-body">
+                                <h5>{{specialista.specialista}}</h5>
+                                <hr>
+                                <p class="section-subtitle">{{specialista.specializzazione}}</p>
+                                <p>{{specialista.cv}}</p>
+                                <button [routerLink]="['/team-page', specialista.id]" (click)="onSelect(specialista)"
+                                    class="btn">Info</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card" *ngFor="let specialista of specCentroList; index as i">

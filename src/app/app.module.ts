@@ -17,6 +17,7 @@ import { SpecialistaComponent } from './components/specialista/specialista.compo
 import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
 import { TeamDetailComponent } from './components/team-detail/team-detail.component';
+import { WherePageComponent } from './pages/where-page/where-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,13 +32,14 @@ import { TeamDetailComponent } from './components/team-detail/team-detail.compon
     SpecialistaComponent,
     TeamPageComponent,
     TeamDetailComponent,
+    WherePageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
@@ -54,6 +56,7 @@ import { TeamDetailComponent } from './components/team-detail/team-detail.compon
     SpecialistaComponent,
     TeamPageComponent,
     TeamDetailComponent,
+    WherePageComponent,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA]

@@ -9,3 +9,8 @@
 .deckContainer {
     justify-content: space-around;
 }
+@media (max-width: 768px) {
+    img {
+        width: 200px;
+    }
+}
