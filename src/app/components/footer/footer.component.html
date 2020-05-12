@@ -1,19 +1,19 @@
 <!-- Footer -->
 <footer class="footer">
-  <div class="container footer-top">
+  <div class="container-fluid footer-top">
     <div class="row">
       <div class="col-md-12">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4 title">
             <h3>Richiedi informazioni</h3>
           </div>
-          <div class="col-md-8 logo">
-            <img src="../../../assets/logo.svg" alt="logo" style="width: 300px">
+          <div class="col-md-6 col-lg-5 logo">
+            <img src="../../../assets/logo.svg" alt="logo" class="logo-img">
           </div>
         </div>
 
         <div class="row footer-nav">
-          <div class="col-md-3">
+          <div class="col-xs-1 col-md-3 col-lg-2">
             <b>
               <h5 class="footer-title underline">Vertex</h5>
             </b>
@@ -21,7 +21,7 @@
               <li><a routerLink="" class="trans">Home</a></li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-1 col-md-3 col-lg-2">
             <b>
               <h5 class="footer-title underline">I nostri servizi</h5>
             </b>
@@ -30,7 +30,7 @@
               <li><a routerLink="/centromedico" class="trans">Centro medico</a></li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-1 col-md-3 col-lg-2">
             <b>
               <h5 class="footer-title underline">Dove siamo</h5>
             </b>
@@ -42,31 +42,27 @@
       </div>
     </div>
   </div>
-  <div class="container footer-middle">
+  <div class="container-fluid footer-middle">
     <div class="row">
-
-      <!--<div class="col-md-6 contatti">
-        <h6 class="footer-title lowercase"><i class="fa fa-phone"></i> <a href="tel:+393802425090"> +39 3802425090 </a>
-          <span class="ml10 mr10">|</span> <i class="fa fa-envelope"></i> <a href="info@vertexarese.it">
-            info@vertexarese.it</a></h6>
-      </div>-->
-    </div>
-    <div class="row">
-      <div class="col-md-3 section-header contatti">
+      <div class="col-md-6 col-lg-3 section-header contatti">
         <div class="icon text-center">
-          <object class="telephone" type="image/svg+xml" data="../../../assets/icons/emailBlue.svg">
-          </object>
+          <i class="fa fa-phone telephone"></i>
         </div>
-        <h3 class="section-title"><a href="tel:+393802425090"> +39 3802425090 </a></h3>
+        <h3 class="section-title text-center"><a href="tel:+393802425090"> +39 3802425090 </a></h3>
       </div>
-      <div class="col-md-3 section-header contatti">
+      <div class="col-md-6 col-lg-3 section-header contatti">
         <div class="icon text-center">
           <object class="email" type="image/svg+xml" data="../../../assets/icons/emailBlue.svg">
           </object>
         </div>
-        <h3 class="section-title"><a href="info@vertexarese.it"> info@vertexarese.it </a></h3>
+        <h3 class="section-title text-center"><a href="#" value="info@vertexarese.it"
+            (click)="copyMessage('info@vertexarese.it')" (onmouseout)="outFunc()"><span class="tooltiptext"
+              id="myTooltip"></span>
+            info@vertexarese.it </a></h3>
       </div>
-      <div class="col-md-3 section-header contatti">
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-6 section-header contatti text-center">
         <ul class="social-network social-circle">
           <li><a href="https://www.facebook.com/Vertexarese/" class="icoFacebook" title="Facebook"><i
                 class="fa fa-facebook"></i></a></li>
@@ -80,6 +76,7 @@
     <i class="fa fa-angle-up"></i>
   </div>
 
-  <div class="footer-copyright text-center py-3">Website by Linda Rimodi
-  </div>
+  <div class="text-center copyright"><a href="https://www.linkedin.com/in/linda-rimoldi-ba6555163/">Website by Linda
+      Rimoldi</a></div>
+
 </footer>
