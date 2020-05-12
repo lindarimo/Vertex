@@ -1,0 +1,52 @@
+.copertina { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.123)), url("../../../../assets/images/pesi.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes slide {
+    from {
+      transform: translateX(200px);
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+}
+.copertina h1 {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.gray-bg {
+    background-color: #f2f2f2
+}
+.pr60 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.side-img {
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    background-image: url("../../../../assets/fisio.jpg");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

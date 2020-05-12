@@ -1,0 +1,12 @@
+
+@media (min-width: 600px) {
+  h5 {
+      font-size: calc( 14.20116px + (16.56802 - 14.20116) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+h5 {
+  line-height: 2.21813em;
+}
+.dumbbell {
+  width: 50px;
+}

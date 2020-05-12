@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "servizio": "Personal training",
+        "specialista": "Matteo Carbone",
+        "specializzazione": "Personal trainer",
+        "cv": "Molto bravo ad allenare gente "
+    },
+    {
+        "id": 2,
+        "servizio": "Personal training",
+        "specialista": "Davide Carbone",
+        "specializzazione": "Personal trainer",
+        "cv": "Molto bravo ad allenare gente e si diverte molto"
+    },
+    {
+        "id": 3,
+        "servizio": "Personal training",
+        "specialista": "Linda Rimoldi",
+        "specializzazione": "Personal trainer",
+        "cv": "Sono bravissima"
+    }
+]

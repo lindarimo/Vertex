@@ -1,8 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
 body{
-    font-family: "Geneva", sans-serif;
-    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    color: #787878;
+    text-rendering: optimizeLegibility !important;
+    letter-spacing: 0.5px;
+    overflow-x: hidden; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #2b2c2d;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+  }
+h3 {
+    font-size: 1.618em;
+}
+h5 {
+    font-size: 1.2em;
 }
   
 html,body {
@@ -10,9 +33,58 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
     font-family: "Geneva", sans-serif;
 }
+.btn {
+    color: #1766B0;
+    border-color: #1766B0;
+}
+.btn:hover {
+    border: 1px solid #1766B0;
+    box-shadow: 2px 2px 5px #1766B0;  
+}
+
+section.content-section {
+    padding: 90px 0;
+  }
+  .content-section .section-header {
+    margin-bottom: 60px;
+  }
+  .content-section .section-title {
+    margin-bottom: 60px;
+    font-size: 1.618em;
+  }
+  .underline {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .content-section .section-subtitle {
+    color: #787878;
+    font-weight: 600;
+  }
+  .underline {
+    border-bottom: 0.5px solid #ccc;
+  }
+  .feature-box {
+    background: #f2f2f2;
+    margin-bottom: 25px;
+    padding: 25px;
+    text-align: center;
+  }
+  .feature-box .icon {
+    color: #1766B0;
+    font-size: 52px;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .feature-box .feature-desc {
+    text-align: left;
+    color: #787878;
+  }
+  p {
+    margin-bottom: 1.75em;
+  }
   
 a:hover, a:focus{
     text-decoration: none;
@@ -76,7 +148,7 @@ button:focus{
 .page-section-title{
       font-size: 30px;
       font-weight: bold;
-      color: #00548B;
+      color: #1766B0;
       margin-bottom: 25px;
 }
   
@@ -117,7 +189,7 @@ button:focus{
     margin-bottom: 50px;
 }
 .page-section-paragraph-title{
-    color: #00aafe;
+    color:#1766B0;
   }
   .page-section-paragraph-title{
     font-size: 22px;
@@ -131,7 +203,7 @@ button:focus{
     border-radius: 30px;
     font-size: 16px;
     display: inline-block;
-    background-color: #5D9FD1;
+    background-color: #1766B0;
     color: #fff;
     -webkit-box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13);
             box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13);

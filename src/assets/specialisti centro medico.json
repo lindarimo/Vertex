@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "servizio": "Visita ortopedica",
+        "specialista": "Marco Galli",
+        "specializzazione": "Medico ortopedico",
+        "cv": "Bravo bravo"
+    },
+    {
+        "id": 2,
+        "servizio": "Visita fisioterapica",
+        "specialista": "Eduardo Ferraro",
+        "specializzazione": "Fisioterapista",
+        "cv": "Eccellente"
+    }
+]

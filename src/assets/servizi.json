@@ -2,22 +2,17 @@
     {
         "id": 1,
         "servizio": "Personal training",
-        "specialista": "Matteo Carbone",
-        "specializzazione": "Personal trainer",
-        "cv": "Molto bravo ad allenare gente "
+        "dettaglio": [
+            "Ginnastica Posturale",
+            "Ginnastica"
+        ]
     },
     {
         "id": 2,
-        "servizio": "Visita ortopedica",
-        "specialista": "Marco Galli",
-        "specializzazione": "Medico ortopedico",
-        "cv": ""
-    },
-    {
-        "id": 3,
-        "servizio": "Visita fisioterapica",
-        "specialista": "Mario Rossi",
-        "specializzazione": "Fisioterapista",
-        "cv": ""
+        "servizio": "Ortopedia",
+        "dettaglio": [
+            "Ginnastica Posturale",
+            "Ginnastica"
+        ]
     }
 ]

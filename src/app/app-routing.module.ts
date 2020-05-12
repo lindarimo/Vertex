@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PalestraComponent } from './palestra/palestra.component';
-import { ServiziComponent } from './servizi/servizi.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { CentromedicoComponent } from './centromedico/centromedico.component';
-import { TeamCardsComponent } from './teamCards/teamCards.component';
-import { TeamPageComponent } from './team-page/team-page.component';
-import { SpecialistaComponent } from './team-page/specialista/specialista.component';
+import { PalestraComponent } from './components/servizi-detail/palestra/palestra.component';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { CentromedicoComponent } from './components/servizi-detail/centromedico/centromedico.component';
+import { TeamCardsComponent } from './components/team-cards/team-cards.component';
+import { TeamPageComponent } from './pages/team-page/team-page.component';
+import { SpecialistaComponent } from './components/specialista/specialista.component';
+import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
+import { WherePageComponent } from './pages/where-page/where-page.component';
 
 const routes: Routes = [
   {
@@ -15,7 +16,7 @@ const routes: Routes = [
   },
   {
     path: 'servizi',
-    component: ServiziComponent
+    component: ServiziCardsComponent
   },
   {
     path: 'palestra',
@@ -30,13 +31,17 @@ const routes: Routes = [
     component: TeamCardsComponent
   },
   {
-    path: 'team-page',
+    path: 'team-page/:id',
     component: TeamPageComponent
   },
   {
-    path: 'team-page/:id',
-    component: SpecialistaComponent
+    path: 'where-page',
+    component: WherePageComponent
   },
+  // {
+  //   path: 'team-page/:id',
+  //   component: SpecialistaComponent
+  // },
   /* {
     path: '**',
     component: PageNotFoundComponent

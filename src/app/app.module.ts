@@ -1,20 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { CarouselComponent } from './carousel/carousel.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FooterComponent } from './footer/footer.component';
-import { ServiziComponent } from './servizi/servizi.component';
-import { PalestraComponent } from './palestra/palestra.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { CentromedicoComponent } from './centromedico/centromedico.component';
-import { TeamCardsComponent } from './teamCards/teamCards.component';
-import { TeamPageComponent } from './team-page/team-page.component';
-import { SpecialistaComponent } from './team-page/specialista/specialista.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PalestraComponent } from './components/servizi-detail/palestra/palestra.component';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { CentromedicoComponent } from './components/servizi-detail/centromedico/centromedico.component';
+import { TeamCardsComponent } from './components/team-cards/team-cards.component';
+import { SpecialistaComponent } from './components/specialista/specialista.component';
+import { TeamPageComponent } from './pages/team-page/team-page.component';
+import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
+import { TeamDetailComponent } from './components/team-detail/team-detail.component';
+import { WherePageComponent } from './pages/where-page/where-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,18 +25,21 @@ import { SpecialistaComponent } from './team-page/specialista/specialista.compon
     NavbarComponent,
     CarouselComponent,
     FooterComponent,
-    ServiziComponent,
+    ServiziCardsComponent,
     PalestraComponent,
     CentromedicoComponent,
     TeamCardsComponent,
     SpecialistaComponent,
     TeamPageComponent,
+    TeamDetailComponent,
+    WherePageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
@@ -43,12 +49,14 @@ import { SpecialistaComponent } from './team-page/specialista/specialista.compon
     NavbarComponent,
     CarouselComponent,
     FooterComponent,
-    ServiziComponent,
+    ServiziCardsComponent,
     PalestraComponent,
     CentromedicoComponent,
     TeamCardsComponent,
     SpecialistaComponent,
     TeamPageComponent,
+    TeamDetailComponent,
+    WherePageComponent,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA]

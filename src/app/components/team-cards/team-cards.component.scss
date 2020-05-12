@@ -1,0 +1,16 @@
+.card {
+    margin: 5px;
+    margin-bottom: 30px;
+}
+.card:hover {
+    border: 1px solid #1766B0;
+    box-shadow: 1px 1px 10px #1766B0;  
+}
+.deckContainer {
+    justify-content: space-around;
+}
+@media (max-width: 768px) {
+    img {
+        width: 200px;
+    }
+}
