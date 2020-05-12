@@ -1,4 +1,45 @@
+// .copertina { 
+//     background-color: #f2f2f2;
+//     background-position: center;
+//     background-repeat: no-repeat; 
+//     background-size: cover;
+//     margin-top: 40px;
+//     margin-bottom: 0px;
+//     animation-name: slide;
+//     animation-duration: 2s;
+//     animation-iteration-count: 1;
+//     animation-fill-mode: forwards;
+//     opacity: 0;
+// }
+.content-section {
+    margin-top: 50px;
+}
+.location {
+    width: 50px;
+}
+.clock {
+    width: 25px;
+}
+.icon {
+    margin-bottom: 12px;
+}
 #map {
     height: 500px;
     width: 100%;
-   }
+}
+.orari {
+    background-color: #f2f2f2;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.orari-lista {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 531px) {
+    .container-row { display: flex; flex-flow: column-reverse; }
+    .orari { margin-top: 40px; }
+    .content-section { margin-top: 0px ; padding-bottom: 30px}
+}

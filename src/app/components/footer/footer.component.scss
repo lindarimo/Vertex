@@ -1,10 +1,77 @@
-.informazionifooter{
-	font-family: sans-serif;
-    display:inline-block;
-    color:white;
-    padding-top:35px;
-    padding-left:60px;
-}ul.social-network {
+.footer {
+  background: #f2f2f2;
+  background-image: url(../../../assets/images/wallpaper.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: initial;
+  border-top: 1px solid #d9d9d9;
+  padding: 60px 0 0;
+}
+.footer-top {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.footer-middle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+.footer-last {
+  padding: 20px 0;
+  background: #2b2c2d;
+  color: #d9d9d9;
+  font-size: 11px;
+}
+.footer-title {
+  font-size: 14px;
+}
+.footer-nav {
+  padding-top: 30px;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding-top: 20px;
+}
+a {
+  color: grey;
+}
+a:hover {
+  color: #1766B0;
+}
+.scroll-to-top {
+  position: fixed;
+    bottom: -50px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background: #2b2c2d;
+    color: #fff;
+    opacity: 0.75;
+    text-align: center;
+    display: block;
+    z-index: 100;
+    font-size: 26px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.logo {
+  text-align: center;
+}
+.telephone {
+  width: 50px;
+}
+.email {
+  width: 50px;
+}
+.contatti {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+ul.social-network {
     list-style: none;
     display: inline;
     margin-left: 0 !important;
@@ -23,19 +90,15 @@
     background-color: #3B5998;
   }
   
-  .social-network a.icoLinkedin:hover {
-    background-color: #007bb7;
+  .social-network a.icoInstagram:hover {
+    background-color:#fc2190;
   }
   
   .social-network a.icoFacebook:hover i,
-  .social-network a.icoLinkedin:hover i {
+  .social-network a.icoInstagram:hover i {
     color: #fff;
   }
-  
-  .social-network a.socialIcon:hover,
-  .socialHoverClass {
-    color: #44BCDD;
-  }
+
   
   .social-circle li a {
     display: inline-block;
@@ -45,23 +108,19 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
   }
   
   .social-circle li i {
-    margin: 0;
+    margin: 10px;
     line-height: 30px;
     text-align: center;
   }
   
   .social-circle li a:hover i,
   .triggeredHover {
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms--transform: rotate(360deg);
-    transform: rotate(360deg);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
