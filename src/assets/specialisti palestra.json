@@ -1,20 +1,23 @@
 [
     {
-        "id": 1,
+        "id": "1",
+        "area": "palestra",
         "servizio": "Personal training",
         "specialista": "Matteo Carbone",
         "specializzazione": "Personal trainer",
         "cv": "Molto bravo ad allenare gente "
     },
     {
-        "id": 2,
+        "id": "2",
+        "area": "palestra",
         "servizio": "Personal training",
         "specialista": "Davide Carbone",
         "specializzazione": "Personal trainer",
         "cv": "Molto bravo ad allenare gente e si diverte molto"
     },
     {
-        "id": 3,
+        "id": "3",
+        "area": "palestra",
         "servizio": "Personal training",
         "specialista": "Linda Rimoldi",
         "specializzazione": "Personal trainer",

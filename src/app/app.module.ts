@@ -16,7 +16,6 @@ import { TeamCardsComponent } from './components/team-cards/team-cards.component
 import { SpecialistaComponent } from './components/specialista/specialista.component';
 import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
-import { TeamDetailComponent } from './components/team-detail/team-detail.component';
 import { WherePageComponent } from './pages/where-page/where-page.component';
 @NgModule({
   declarations: [
@@ -31,7 +30,6 @@ import { WherePageComponent } from './pages/where-page/where-page.component';
     TeamCardsComponent,
     SpecialistaComponent,
     TeamPageComponent,
-    TeamDetailComponent,
     WherePageComponent,
   ],
   imports: [
@@ -55,7 +53,6 @@ import { WherePageComponent } from './pages/where-page/where-page.component';
     TeamCardsComponent,
     SpecialistaComponent,
     TeamPageComponent,
-    TeamDetailComponent,
     WherePageComponent,
   ],
   schemas: [

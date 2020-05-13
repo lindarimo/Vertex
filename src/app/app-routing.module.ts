@@ -31,17 +31,13 @@ const routes: Routes = [
     component: TeamCardsComponent
   },
   {
-    path: 'team-page/:id',
+    path: 'team-page/:id/:area',
     component: TeamPageComponent
   },
   {
     path: 'where-page',
     component: WherePageComponent
   },
-  // {
-  //   path: 'team-page/:id',
-  //   component: SpecialistaComponent
-  // },
   /* {
     path: '**',
     component: PageNotFoundComponent
