@@ -4,7 +4,7 @@
         "servizio": "Personal training",
         "dettaglio": [
             "Ginnastica Posturale",
-            "Ginnastica"
+            "Ginnastica",
         ]
     },
     {
@@ -14,5 +14,13 @@
             "Ginnastica Posturale",
             "Ginnastica"
         ]
-    }
+    },
+	{
+        "id": 3,
+        "servizio": "Personal training",
+        "dettaglio": [
+            "Ginnastica Posturale",
+            "Ginnastica"
+        ]
+    },
 ]

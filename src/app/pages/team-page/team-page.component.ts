@@ -38,6 +38,9 @@ export class TeamPageComponent implements OnInit {
     } else {
       this.isPalestraSelected = false;
       $('#centroMedico').addClass('activeBtn');
+      // Gestisco il toggle della selezione delle immagini (tondi)
+      $('img').removeClass('activeImg');
+      $('#' + this.routerId).addClass('activeImg');
     }
 
     // Gestisco il toggle della selezione dei bottoni
@@ -46,33 +49,39 @@ export class TeamPageComponent implements OnInit {
       $(this).toggleClass('activeBtn');
       if ($(this).attr('id') === 'centroMedico') {
         self.isPalestraSelected = false;
+        self.routerArea = 'centro medico';
         self.onShowDetail(self.specCentroList[0]);
       } else {
         self.isPalestraSelected = true;
+        self.routerArea = 'palestra';
         self.onShowDetail(self.specPalestraList[0]);
       }
+      self.routerId = '1';
     });
+    this.onShowDetail(this.specPalestraList[0]);
   }
 
   loadServizi() {
     this.vertexService.getSpecPalestra().subscribe(data => {
       this.specPalestraList = data;
-      this.selectedSpecialista = this.specPalestraList.find(specialista => specialista.id === this.routerId);
+      if (this.routerArea === 'palestra') {
+        this.selectedSpecialista = this.specPalestraList.find(specialista =>
+          specialista.id === this.routerId && specialista.area === this.routerArea);
+      }
     });
     this.vertexService.getSpecCentro().subscribe(data => {
       this.specCentroList = data;
-      this.selectedSpecialista = this.specPalestraList.find(specialista => specialista.id === this.routerId);
+      if(this.routerArea === 'centro medico') {
+        this.selectedSpecialista = this.specCentroList.find(specialista =>
+          specialista.id === this.routerId && specialista.area === this.routerArea);
+      }
     });
   }
   onShowDetail(specialista: Specialista) {
-    if (this.selectedSpecialista && this.selectedSpecialista.id === specialista.id) {
-      this.selectedSpecialista = undefined;
-      $('#dettaglioSpecialista').hide();
-      $('.arrowUp').hide();
-    } else {
-      this.selectedSpecialista = specialista;
-      $('#dettaglioSpecialista').show();
-      $('.arrowUp').show();
-    }
+    this.selectedSpecialista = specialista;
+
+    // Gestisco il toggle della selezione delle immagini (tondi)
+    $('img').removeClass('activeImg');
+    $('#' + specialista.id).addClass('activeImg');
   }
 }
