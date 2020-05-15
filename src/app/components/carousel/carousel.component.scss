@@ -1,8 +1,9 @@
 .carousel-container {
-    display: flexbox
+    display: flexbox;
 }
 img {
     opacity: 0.5;
+    width:100%; 
 }
 
 .carousel-caption h3 {

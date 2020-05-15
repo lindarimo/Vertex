@@ -1,6 +1,8 @@
 .card {
     margin: 5px;
     margin-bottom: 30px;
+    display: block;
+    border-radius: 6px;
 }
 .card:hover {
     border: 1px solid #1766B0;
@@ -9,12 +11,13 @@
 .deckContainer {
     justify-content: space-around;
 }
+    img {
+        width: 150px;
+        margin-top: 15px;
+        border-radius: 50%;
+    }
 @media (max-width: 480px) {
     img {
         width: 100px;
-        margin-left: 145px;
-        margin-right: 145px;
-        margin-top: 15px;
-        border-radius: 50%;
     }
 }

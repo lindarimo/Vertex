@@ -25,7 +25,7 @@
 
 <section *ngIf="isPalestraSelected === true">
     <div class="container">
-        <div class="row team-list-img container tab-pane active">
+        <div class="team-list-img tab-pane active">
             <span *ngFor="let specialista of specPalestraList; index as i">
                 <a (click)="onShowDetail(specialista)">
                     <img src="../../../assets/Specialisti/Palestra/{{specialista.id}}.jpg" alt="Avatar"
@@ -34,7 +34,7 @@
                 </a>
             </span>
         </div>
-        <div class="row" class="dettaglioRow">
+        <div class="dettaglioRow">
             <div id="dettaglioSpecialista">
                 <h3>
                     {{selectedSpecialista?.specialista}}
@@ -52,7 +52,7 @@
 </section>
 <section *ngIf="isPalestraSelected === false">
     <div class="container">
-        <div class="row team-list-img container tab-pane active">
+        <div class="team-list-img tab-pane active">
             <span *ngFor="let specialista of specCentroList; index as i">
                 <a (click)="onShowDetail(specialista)">
                     <img src="../../../assets/Specialisti/Centro Medico/{{specialista.id}}.jpg" alt="Avatar"
@@ -61,7 +61,7 @@
                 </a>
             </span>
         </div>
-        <div class="row">
+        <div class="dettaglioRow">
             <div id="dettaglioSpecialista">
                 <h3>
                     {{selectedSpecialista?.specialista}}

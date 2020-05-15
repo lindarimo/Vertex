@@ -32,6 +32,9 @@
   .logo {
     display: none;
   }
+  div .row-title {
+    padding-bottom: 0px;
+  }
 }
 .footer-middle {
   padding-top: 30px;
@@ -85,6 +88,9 @@ a:hover {
 .title {
   display: flex;
   align-items: center;
+}
+.row-title {
+  padding-bottom: 25px;
 }
 .logo {
   text-align: right;
@@ -175,12 +181,14 @@ ul.social-network li {
 .social-network a {
   background-color: #f9f9f9;
 }
-.copyright {
+.copyright{
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #2b2c2d;
-  color: #f2f2f2;
+}
+.copyright a {
+  color: white;
 }
 .copyright:hover {
   color: #1766b0;

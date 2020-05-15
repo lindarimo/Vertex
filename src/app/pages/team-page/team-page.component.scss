@@ -36,6 +36,9 @@ a:hover {
 .team-list-img {
     display: inline-block;
     margin-bottom: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
 }
 .activeImg {
     padding: 2.5px;
@@ -61,5 +64,12 @@ a:hover {
     border-radius: 6px;
     background: #f2f2f2;
     width: 100%;
-
+}
+@media (max-width: 480px) {
+    .activeImg {
+        width: 100px;
+    }
+    img {
+        width: 70px;
+    }
 }
