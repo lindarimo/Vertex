@@ -14,8 +14,8 @@ export class TeamPageComponent implements OnInit {
   public specCentroList: Specialista[];
   public selectedSpecialista: Specialista;
   public isPalestraSelected: boolean;
-  private routerId: string;
-  private routerArea: string;
+  public routerId: string;
+  public routerArea: string;
 
   constructor(
     private vertexService: VertexService,

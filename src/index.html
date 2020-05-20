@@ -45,6 +45,30 @@
       document.getElementById("myDiv").style.display = "block";
     }
   </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAihzrH-jxcyutKT21i5TKnUihaRa6zwaw",
+      authDomain: "vertexarese-af761.firebaseapp.com",
+      databaseURL: "https://vertexarese-af761.firebaseio.com",
+      projectId: "vertexarese-af761",
+      storageBucket: "vertexarese-af761.appspot.com",
+      messagingSenderId: "334928615079",
+      appId: "1:334928615079:web:e5657cce87830bdd8fad82",
+      measurementId: "G-06MRSTCWTY"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+  </script>
 </body>
 
 </html>
