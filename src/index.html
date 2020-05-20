@@ -12,12 +12,39 @@
   <link rel="icon" type="image/x-icon" href="img/logo.jpg">
   <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJkdhE1TNrlgiETtrkTaMT2xku7Xne5NE" 
     type="text/javascript"></script>-->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxuZWoEItBF_IMo3BzEG_Isow7xWqrwxw" 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxuZWoEItBF_IMo3BzEG_Isow7xWqrwxw"
     type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      setTimeout(function () {
+        $('body').addClass('loaded');
+        $('h1').css('color', '#222222');
+      }, 2000);
+
+    });
+  </script>
 </head>
 
-<body>
-  <app-root></app-root>
+<body onload="myFunction()">
+  <div id="loader">
+  </div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <app-root></app-root>
+  </div>
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 50);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
 </body>
 
 </html>
