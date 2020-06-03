@@ -5,6 +5,7 @@
         "servizio": "Personal training",
         "specialista": "Matteo Carbone",
         "specializzazione": "Personal trainer",
+        "ruolo": "Founder",
         "cv": "Molto bravo ad allenare gente "
     },
     {
@@ -13,14 +14,7 @@
         "servizio": "Personal training",
         "specialista": "Davide Carbone",
         "specializzazione": "Personal trainer",
+        "ruolo": "Founder",
         "cv": "Molto bravo ad allenare gente e si diverte molto"
-    },
-    {
-        "id": "3",
-        "area": "palestra",
-        "servizio": "Personal training",
-        "specialista": "Linda Rimoldi",
-        "specializzazione": "Personal trainer",
-        "cv": "Sono bravissima"
     }
 ]

@@ -5,16 +5,52 @@
         "servizio": "Visita ortopedica",
         "specialista": "Marco Galli",
         "specializzazione": "Medico ortopedico",
-        "cv": "Bravo bravo",
-		"fiabata": "...................."
+        "ruolo": "Collaboratore",
+		"cv": "Il dr.Marco Cesare Galli è ortopedico traumatologo presso il Centro di Traumatologia dello Sport e Chirurgia Artroscopica (C.T.S.) dell’IRCCS Istituto Ortopedico Galeazzi e presso la Casa di Cura la Madonnina. Si laurea in Medicina e Chirurgia all’Università degli Studi di Milano nel 1995, dove consegue anche la specializzazione in Ortopedia e Traumatologia. Nel 2011 frequenta e consegue il Master universitario in Biomeccanica Patologia e Trattamento Terapeutico dell’Arto Superiore all’Università di Bologna polo di Rimini. Al termine degli studi, il dr.Galli intraprende, in Italia e all’estero, un lungo percorso formativo sulla chirurgia del ginocchio e della spalla e sulla traumatologia sportiva. L’attività clinica del dr.Galli è rivolta alla diagnosi, al trattamento conservativo e chirurgico delle patologie traumatiche e degenerative artrosiche di ginocchio, spalla e caviglia. Si occupa inoltre delle traumatologia sportiva dei distretti articolari di ginocchio, spalla e caviglia e delle patologie muscolo-tendinee acute e da overuse."
     },
     {
         "id": "2",
         "area": "centro medico",
+        "servizio": "Visita nutrizionale",
+        "specialista": "Tancini Stefania",
+        "specializzazione": "Nutrizionista e Biologa",
+        "ruolo": "Collaboratrice",
+		"cv": "Laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano. Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici. La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
+    },
+	{
+        "id": "3",
+        "area": "centro medico",
         "servizio": "Visita fisioterapica",
-        "specialista": "Eduardo Ferraro",
+        "specialista": "Ferraro Eduardo",
         "specializzazione": "Fisioterapista",
-        "cv": "Eccellente",
-		"fiabata": "...................."
+		"ruolo": "Collaboratore",
+		"cv": "Il Dr. Ferraro Eduardo lavora come fisioterapista presso l’IRCCS Istituto Ortopedico Galeazzi ed opera anche in libera professione. Si laurea in Fisioterapia nel 2014 presso l’Università Statale di Milano con un eccellente tesi eseguita in collaborazione con l’Unità Spinale dell’Ospedale Niguarda Ca’ Granda. Nel 2018 consegue il Master di I Livello in Fisioterapia Sportiva presso L’Università degli Studi di Pisa. Ha collaborato con diverse realtà sportive agonistiche. Attualmente sta portando a termine il Master di I livello in Riabilitazione dei disturbi muscolo-scheletrici presso l’Università degli Studi di Genova."
+    },
+	{
+        "id": "4",
+        "area": "centro medico",
+        "servizio": "Visita osteopatica",
+        "specialista": "Botto Francesco",
+        "specializzazione": "Osteopata",
+		"ruolo": "Collaboratore",
+		"cv": "....."
+    },
+	{
+        "id": "5",
+        "area": "centro medico",
+        "servizio": "Visita ortopedica",
+        "specialista": "Pulici Luca",
+        "specializzazione": "Ortopedico",
+		"ruolo": "Collaboratore",
+		"cv": "....."
+    },
+	{
+        "id": "6",
+        "area": "centro medico",
+        "servizio": "Massofisioterapia",
+        "specialista": "Ezio",
+        "specializzazione": "Massofisioterapista",
+		"ruolo": "Collaboratore",
+		"cv": "....."
     }
 ]
