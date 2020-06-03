@@ -1,52 +1,105 @@
-.copertina { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.123)), url("../../../../assets/images/pesi.jpg"); 
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    margin-top: 70px;
-    margin-bottom: 0px;
-    animation-name: slide;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
 @keyframes slide {
     from {
-      transform: translateX(200px);
+        transform: translateX(200px);
     }
     to {
-      transform: translateX(0px);
-      opacity: 1;
+        transform: translateX(0px);
+        opacity: 1;
     }
 }
-.copertina h1 {
-    animation-name: slide;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    opacity: 0;
+.servizi-container {
+    display: table;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background: linear-gradient(to left, #ffffff, #1766b0);
 }
-.gray-bg {
-    background-color: #f2f2f2
+.servizi-container:hover .dettaglio-container:hover {
+    box-shadow: 2px 2px 5px #1766b0;
 }
-.pr60 {
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 90px;
-    padding-bottom: 30px;
+.servizi-cicle,
+.dettaglio-cicle {
+    display: table-cell;
+    vertical-align: middle;
 }
-.side-img {
-    animation-name: slide;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    background-image: url("../../../../assets/images/fisioterapista.jpg");
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.dettaglioRow {
+    background: linear-gradient(to left, #ffffff, #1766b0);
+    padding-bottom: 1.5px;
+    padding-left: 1.5px;
+    width: 100%;
+    border-radius: 6px;
+}
+#dettaglioServizio {
+    padding: 20px;
+    border-radius: 6px;
+    background: #f2f2f2;
+    width: 100%;
 }
 
+#servizi {
+    position: relative;
+    margin-bottom: 100px;
+}
+.image-holder {
+    overflow: hidden;
+    height: 100%;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+}
+@media (min-width: 992px) {
+    .col-md-offset-5 {
+        margin-left: 41.6666666667%;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-7 {
+        width: 58.3333333333%;
+    }
+}
+.background-imgholder {
+    background: url("../../../../assets/images/palestra.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+.text-inner {
+    @media (min-width: 760px) {
+        padding: 62px;
+    }
+    @media (max-width: 760px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+.text-block {
+    background: #fff;
+    padding: 40px;
+    position: relative;
+    top: 50%;
+    box-shadow: 0px 0px 12px #ddd;
+    opacity: 0.95;
+}
+.detail-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dettaglio {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.pesi {
+    width: 50px;
+}
+.content-section {
+    margin-top: 50px;
+}
+.icon {
+    margin-bottom: 12px;
+}
