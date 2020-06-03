@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "servizio": "Ortopedia",
+        "dettaglio": [
+            "Diagnosi e Valutazione",
+            "Infiltrazioni",
+            "Monitoraggio percorso riabilitativo per sportivi e non"
+        ]
+    },
+    {
+        "id": 2,
+        "servizio": "Fisioterapia",
+        "dettaglio": [
+            "FKT (fisiokinesiterapia)",
+            "Fisioterapia Domiciliare",
+            "Ginnastica riabilitativa e posturale",
+            "Riabilitazione fisica e motoria",
+            "Tecarterapia",
+            "Tens",
+            "Trattamenti e manipolazioni manuali profonde"
+        ]
+    },
+    {
+        "id": 3,
+        "servizio": "Osteopatia",
+        "dettaglio": [
+            "Terapia Viscerale",
+            "Terapia Cranio-Sacrale",
+            "Trazioni Cervicali Manuali",
+            "Manipolazioni Fasciali"
+        ]
+    },
+    {
+        "id": 4,
+        "servizio": "Nutrizione",
+        "dettaglio": [
+            "Dimagrimento",
+            "Benessere",
+            "Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)",
+            "Problematiche Gastro-Intestinali"
+        ]
+    },
+    {
+        "id": 5,
+        "servizio": "Massoterapia",
+        "dettaglio": [
+            "Massaggi Rilassanti",
+            "Massaggi Decontratturanti",
+            "Massaggi Sportivi",
+            "Tecarterapia",
+            "Trattamenti per cervicalgie, lombalgie ed altre patologie su prescrizione medica"
+        ]
+    }
+]

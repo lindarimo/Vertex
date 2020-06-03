@@ -8,12 +8,60 @@
     </div>
 </section>
 
-<section>
+
+
+<section id="servizi">
+    <div class="image-holder col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-left">
+        <div class="background-imgholder">
+            <img src="img/1.jpg" alt="about" class="img-responsive" style="display:none;" />
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="col-md-7 col-md-offset-5 col-sm-8 col-sm-offset-2 col-xs-12 text-inner ">
+            <div class="text-block">
+                <div class="container servizi-container text-center" (click)="onShowDetail(specialista)">
+                    <span class="servizi-cicle">
+                        <h3>Ortopedia</h3>
+                    </span>
+                </div>
+                <div>
+                    <div class="dettaglioRow">
+                        <div id="dettaglioServizio">
+                            <h5>Diagnosi e Valutazione</h5>
+                            <h5>Infiltrazioni</h5>
+                            <h5>Monitoraggio percorso riabilitativo per sportivi e non</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="content-section">
     <div class="row">
         <div class="col-md-4 side-img">
         </div>
         <div class="col-md-8 col-md-offset-4 gray-bg">
-            <div class="pt90 pl60 pr60 pb30 plxs30 prxs30">
+            <div class="container servizi-container text-center" (click)="onShowDetail(specialista)">
+                <span class="servizi-cicle">
+                    <h3>Ortopedia</h3>
+                </span>
+            </div>
+            <div class=container>
+                <div class="dettaglioRow">
+                    <div id="dettaglioServizio">
+                        <h5>Diagnosi e Valutazione</h5>
+                        <h5>Infiltrazioni</h5>
+                        <h5>Monitoraggio percorso riabilitativo per sportivi e non</h5>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="pt90 pl60 pr60 pb30 plxs30 prxs30">
                 <div class="row">
                     <div class="col-md-6 mb60">
                         <h5 class="underline">Ufficio Commerciale</h5>
@@ -28,10 +76,122 @@
                             prodotti dei nostri clienti un corretto posizionamento sul mercato.</p>
                     </div>
                 </div>
-
-                <div class="clearfix"></div>
+            </div>-->
+        </div>
+    </div>
+</section>
+<section class="content-section">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-4 gray-bg">
+            <div class="container servizi-container text-center" (click)="onShowDetail(specialista)">
+                <span class="servizi-cicle">
+                    <h3>Fisioterapia</h3>
+                </span>
+            </div>
+            <div class=container>
+                <div class="dettaglioRow">
+                    <div id="dettaglioServizio">
+                        <h5>FKT (fisiokinesiterapia)</h5>
+                        <h5>Fisioterapia Domiciliare</h5>
+                        <h5>Ginnastica riabilitativa e posturale</h5>
+                        <h5>Riabilitazione fisica e motoria</h5>
+                        <h5>Tecarterapia</h5>
+                        <h5>Tens</h5>
+                        <h5>Trattamenti e manipolazioni manuali profonde</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 side-img">
+        </div>
+    </div>
+</section>
+<section class="content-section">
+    <div class="row">
+        <div class="col-md-4 side-img">
+        </div>
+        <div class="col-md-8 col-md-offset-4 gray-bg">
+            <div class="container servizi-container text-center" (click)="onShowDetail(specialista)">
+                <span class="servizi-cicle">
+                    <h3>Osteopatia</h3>
+                </span>
+            </div>
+            <div class=container>
+                <div class="dettaglioRow">
+                    <div id="dettaglioServizio">
+                        <h5>Terapia Viscerale</h5>
+                        <h5>Terapia Cranio-Sacrale</h5>
+                        <h5>Trazioni Cervicali Manuali</h5>
+                        <h5>Manipolazioni Fasciali</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+<section class="content-section">
+    <div class="row">
+        <div class="col-md-4 side-img">
+        </div>
+        <div class="col-md-8 col-md-offset-4 gray-bg">
+            <div class="container servizi-container text-center" (click)="onShowDetail(specialista)">
+                <span class="servizi-cicle">
+                    <h3>Nutrizione</h3>
+                </span>
+            </div>
+            <div class=container>
+                <div class="dettaglioRow">
+                    <div id="dettaglioServizio">
+                        <h5>Dimagrimento</h5>
+                        <h5>Benessere</h5>
+                        <h5>Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)</h5>
+                        <h5>Problematiche Gastro-Intestinali</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content-section">
+    <div class="row">
+        <div class="col-md-4 side-img">
+        </div>
+        <div class="col-md-8 col-md-offset-4 gray-bg">
+            <div class="container servizi-container text-center" (click)="onShowDetail(specialista)">
+                <span class="servizi-cicle">
+                    <h3>Massoterapia</h3>
+                </span>
+            </div>
+            <div class=container>
+                <div class="dettaglioRow">
+                    <div id="dettaglioServizio">
+                        <h5>Massaggi Rilassanti</h5>
+                        <h5>Massaggi Decontratturanti</h5>
+                        <h5>Massaggi Sportivi</h5>
+                        <h5>Tecarterapia</h5>
+                        <h5>Trattamenti per cervicalgie, lombalgie ed altre patologie su prescrizione medica</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section class="content-section">
+    <div class="container servizi-container text-center" (click)="onShowDetail(specialista)">
+        <span class="servizi-cicle">
+            <h3>Ortopedia</h3>
+        </span>
+    </div>
+    <div class=container>
+        <div class="dettaglioRow">
+            <div id="dettaglioServizio">
+                <h5>Diagnosi e Valutazione</h5>
+                <h5>Infiltrazioni</h5>
+                <h5>Monitoraggio percorso riabilitativo per sportivi e non</h5>
+            </div>
+        </div>
+    </div>
+</section>-->
+
 <app-footer></app-footer>

@@ -18,4 +18,10 @@ export class VertexService {
   public getSpecCentro(): Observable<Specialista[]> {
     return this.httpClient.get<Specialista[]>('assets/specialisti centro medico.json');
   }
+  // public getServiziPalestra(): Observable<Specialista[]> {
+  //   return this.httpClient.get<Specialista[]>('assets/servizi palestra.json');
+  // }
+  // public getServiziCentro(): Observable<Specialista[]> {
+  //   return this.httpClient.get<Specialista[]>('assets/servizi centro medico.json');
+  // }
 }

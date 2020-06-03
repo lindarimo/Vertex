@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "servizio": "Personal training",
+        "dettaglio": [
+            "Ginnastica Posturale",
+            "Allenamento Funzionale",
+            "Ginnastica Dolce",
+            "Coaching Online",
+            "Dimagrimento",
+            "Ricomposizione Corporea",
+            "Prevenzione Infortuni",
+            "Rieducazione fisica e motoria (post riabilitazione fisioterapica)",
+            "Performance Sportiva per sport di squadra ed individuali",
+            "Valutazione Atletica",
+            "Fitness"
+        ]
+    }
+]
