@@ -103,6 +103,42 @@
 .icon {
     margin-bottom: 12px;
 }
-.text-block > h3:hover {
+.row-title:hover {
     cursor: pointer;
+}
+
+.servizio-list {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #2b2c2d;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 1.618em;
+}
+.arrow {
+    font-size: initial;
+    margin-top: 5px;
+    @media (max-width: 480px) {
+        float: right;
+    }
+    @media (min-width: 760px ) {
+        position: absolute;
+        left: 40%;
+    }
+    @media (min-width: 900px ) {
+        position: absolute;
+        left: 50%;
+    }
+    @media (min-width: 1500px ) {
+        position: absolute;
+        left: 30%;
+    }
+}
+.arrow-grey {
+    color: #787878;
+}
+.arrow-blue {
+    color: #1766b0;
 }
