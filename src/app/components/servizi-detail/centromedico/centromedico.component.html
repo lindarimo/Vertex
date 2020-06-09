@@ -15,8 +15,6 @@
     </div>
 </section>
 
-
-
 <section id="servizi">
     <div class="image-holder col-lg-6 col-md-12 col-sm-12 col-xs-12 pull-left">
         <div class="background-imgholder">
@@ -48,8 +46,9 @@
             <div (click)="onShowDetail('massoterapia')" class="row-title">
                 <span class="servizio-list">
                     Massoterapia
-                    <i *ngIf="detailToShow !== 'fisioterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'fisioterapia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
+                    <i *ngIf="detailToShow !== 'massoterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
+                    <i *ngIf="detailToShow === 'massoterapia'" class="fa fa-chevron-up arrow arrow-blue"></i> 
+                </span>
             </div>
             <hr *ngIf="detailToShow !== 'massoterapia'">
             <div *ngIf="detailToShow === 'massoterapia'" class="detail-container">
@@ -67,15 +66,15 @@
             <div (click)="onShowDetail('nutrizione')" class="row-title">
                 <span class="servizio-list">
                     Nutrizione
-                    <i *ngIf="detailToShow !== 'fisioterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'fisioterapia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
+                    <i *ngIf="detailToShow !== 'nutrizione'" class="fa fa-chevron-down arrow arrow-grey"></i>
+                    <i *ngIf="detailToShow === 'nutrizione'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
             </div>
             <hr *ngIf="detailToShow !== 'nutrizione'">
             <div *ngIf="detailToShow === 'nutrizione'" class="detail-container">
                 <div class="dettaglioRow">
                     <div id="dettaglioServizio">
-                        <p class="dettaglio">Dimagrimento</p>
                         <p class="dettaglio">Benessere</p>
+                        <p class="dettaglio">Dimagrimento</p>
                         <p class="dettaglio">Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)</p>
                         <p class="dettaglio">Problematiche Gastro-Intestinali</p>
                     </div>
@@ -84,8 +83,8 @@
             <div (click)="onShowDetail('ortopedia')" class="row-title">
                 <span class="servizio-list">
                     Ortopedia
-                    <i *ngIf="detailToShow !== 'fisioterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'fisioterapia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
+                    <i *ngIf="detailToShow !== 'ortopedia'" class="fa fa-chevron-down arrow arrow-grey"></i>
+                    <i *ngIf="detailToShow === 'ortopedia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
             </div>
             <hr *ngIf="detailToShow !== 'ortopedia'">
             <div *ngIf="detailToShow === 'ortopedia'" class="detail-container">
@@ -100,16 +99,16 @@
             <div (click)="onShowDetail('osteopatia')" class="row-title">
                 <span class="servizio-list">
                     Osteopatia
-                    <i *ngIf="detailToShow !== 'fisioterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'fisioterapia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
+                    <i *ngIf="detailToShow !== 'osteopatia'" class="fa fa-chevron-down arrow arrow-grey"></i>
+                    <i *ngIf="detailToShow === 'osteopatia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
             </div>
             <div *ngIf="detailToShow === 'osteopatia'" class="detail-container">
                 <div class="dettaglioRow">
                     <div id="dettaglioServizio">
-                        <p class="dettaglio">Terapia Viscerale</p>
-                        <p class="dettaglio">Terapia Cranio-Sacrale</p>
-                        <p class="dettaglio">Trazioni Cervicali Manuali</p>
                         <p class="dettaglio">Manipolazioni Fasciali</p>
+                        <p class="dettaglio">Terapia Cranio-Sacrale</p>
+                        <p class="dettaglio">Terapia Viscerale</p>
+                        <p class="dettaglio">Trazioni Cervicali Manuali</p>
                     </div>
                 </div>
             </div>

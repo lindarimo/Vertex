@@ -79,7 +79,7 @@ export class TeamPageComponent implements OnInit {
   }
   onShowDetail(specialista: Specialista) {
     this.selectedSpecialista = specialista;
-
+    //this.selectedSpecialista.cv = specialista.cv.ht;
     // Gestisco il toggle della selezione delle immagini (tondi)
     $('img').removeClass('activeImg');
     $('#' + specialista.id).addClass('activeImg');

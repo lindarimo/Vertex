@@ -43,8 +43,8 @@
                     {{selectedSpecialista?.specializzazione}}
                 </h5>
                 <hr>
-                <p class="cv">
-                    {{selectedSpecialista?.cv}}
+                <p class="cv" [innerHtml]="selectedSpecialista?.cv">
+                    
                 </p>
             </div>
         </div>
@@ -70,8 +70,7 @@
                     {{selectedSpecialista?.specializzazione}}
                 </h5>
                 <hr>
-                <p class="cv">
-                    {{selectedSpecialista?.cv}}
+                <p class="cv" [innerHtml]="selectedSpecialista?.cv">  
                 </p>
             </div>
         </div>
