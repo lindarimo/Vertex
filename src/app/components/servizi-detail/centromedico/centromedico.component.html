@@ -9,7 +9,9 @@
                     </object>
                 </div>
                 <h3 class="section-title underline">Il centro medico</h3>
-                <p class="section-subtitle">Vieni a trovarci nella nostra sede ad Arese (MI) in via XXV Aprile, 31</p>
+                <p class="section-subtitle">Un team solido, collaborativo e di grandi specialisti vi assisterà nel
+                    percorso di diagnosi, terapie e trattamenti appropriati. Per una corretta gestione del paziente è
+                    necessaria coesione ed accuratezza.</p>
             </div>
         </div>
     </div>
@@ -36,10 +38,13 @@
                         <p class="dettaglio">FKT (fisiokinesiterapia)</p>
                         <p class="dettaglio">Fisioterapia Domiciliare</p>
                         <p class="dettaglio">Ginnastica riabilitativa e posturale</p>
+                        <p class="dettaglio">Linfodrenaggio manuale</p>
                         <p class="dettaglio">Riabilitazione fisica e motoria</p>
+                        <p class="dettaglio">Taping elastico</p>
                         <p class="dettaglio">Tecarterapia</p>
                         <p class="dettaglio">Tens</p>
                         <p class="dettaglio">Trattamenti e manipolazioni manuali profonde</p>
+                        <button [routerLink]="['/team-page', 1, 'centro medico']" class="btn" style="float: right;">I nostri fisioterapisti</button>
                     </div>
                 </div>
             </div>
@@ -47,7 +52,7 @@
                 <span class="servizio-list">
                     Massoterapia
                     <i *ngIf="detailToShow !== 'massoterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'massoterapia'" class="fa fa-chevron-up arrow arrow-blue"></i> 
+                    <i *ngIf="detailToShow === 'massoterapia'" class="fa fa-chevron-up arrow arrow-blue"></i>
                 </span>
             </div>
             <hr *ngIf="detailToShow !== 'massoterapia'">

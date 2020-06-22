@@ -12,6 +12,7 @@ export class CentromedicoComponent implements OnInit {
   specialisti: Specialista[] = [];
   public isCollapsed = false;
   public detailToShow: string;
+  public isServizioToShow = false;
 
   constructor(private httpClient: HttpClient) { }
   ngOnInit() {
