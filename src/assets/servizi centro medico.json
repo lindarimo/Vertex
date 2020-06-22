@@ -1,48 +1,21 @@
 [
     {
         "id": 1,
-        "servizio": "Ortopedia",
-        "dettaglio": [
-            "Diagnosi e Valutazione",
-            "Infiltrazioni",
-            "Monitoraggio percorso riabilitativo per sportivi e non"
-        ]
-    },
-    {
-        "id": 2,
         "servizio": "Fisioterapia",
         "dettaglio": [
             "FKT (fisiokinesiterapia)",
             "Fisioterapia Domiciliare",
             "Ginnastica riabilitativa e posturale",
+			"Linfodrenaggio manuale",
             "Riabilitazione fisica e motoria",
+			"Taping elastico",
             "Tecarterapia",
             "Tens",
             "Trattamenti e manipolazioni manuali profonde"
         ]
     },
-    {
-        "id": 3,
-        "servizio": "Osteopatia",
-        "dettaglio": [
-            "Terapia Viscerale",
-            "Terapia Cranio-Sacrale",
-            "Trazioni Cervicali Manuali",
-            "Manipolazioni Fasciali"
-        ]
-    },
-    {
-        "id": 4,
-        "servizio": "Nutrizione",
-        "dettaglio": [
-            "Dimagrimento",
-            "Benessere",
-            "Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)",
-            "Problematiche Gastro-Intestinali"
-        ]
-    },
-    {
-        "id": 5,
+	{
+        "id": 2,
         "servizio": "Massoterapia",
         "dettaglio": [
             "Massaggi Rilassanti",
@@ -50,6 +23,36 @@
             "Massaggi Sportivi",
             "Tecarterapia",
             "Trattamenti per cervicalgie, lombalgie ed altre patologie su prescrizione medica"
+        ]
+    },
+	{
+        "id": 3,
+        "servizio": "Nutrizione",
+        "dettaglio": [
+		    "Benessere",
+            "Dimagrimento",
+            "Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)",
+            "Problematiche Gastro-Intestinali"
+        ]
+    },
+    {
+        "id": 4,
+        "servizio": "Ortopedia",
+        "dettaglio": [
+            "Diagnosi e Valutazione",
+            "Infiltrazioni",
+            "Monitoraggio percorso riabilitativo per sportivi e non"
+        ]
+    },
+
+    {
+        "id": 3,
+        "servizio": "Osteopatia",
+        "dettaglio": [
+			"Manipolazioni Fasciali",
+			"Terapia Cranio-Sacrale",
+            "Terapia Viscerale",
+            "Trazioni Cervicali Manuali"   
         ]
     }
 ]
