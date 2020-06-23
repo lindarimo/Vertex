@@ -24,96 +24,24 @@
     </div>
     <div class="col-lg-7 col-lg-offset-5 col-md-12 col-md-offset-5 col-sm-12 col-sm-offset-12 col-xs-12 text-inner ">
         <div class="text-block">
-            <div (click)="onShowDetail('fisioterapia')" class="row-title">
-                <span class="servizio-list">
-                    Fisioterapia
-                    <i *ngIf="detailToShow !== 'fisioterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'fisioterapia'" class="fa fa-chevron-up arrow arrow-blue"></i>
-                </span>
-            </div>
-            <hr *ngIf="detailToShow !== 'fisioterapia'">
-            <div *ngIf="detailToShow === 'fisioterapia'" class="detail-container">
-                <div class="dettaglioRow">
-                    <div id="dettaglioServizio">
-                        <p class="dettaglio">FKT (fisiokinesiterapia)</p>
-                        <p class="dettaglio">Fisioterapia Domiciliare</p>
-                        <p class="dettaglio">Ginnastica riabilitativa e posturale</p>
-                        <p class="dettaglio">Linfodrenaggio manuale</p>
-                        <p class="dettaglio">Riabilitazione fisica e motoria</p>
-                        <p class="dettaglio">Taping elastico</p>
-                        <p class="dettaglio">Tecarterapia</p>
-                        <p class="dettaglio">Tens</p>
-                        <p class="dettaglio">Trattamenti e manipolazioni manuali profonde</p>
-                        <button [routerLink]="['/team-page', 1, 'centro medico']" class="btn" style="float: right;">I nostri fisioterapisti</button>
-                    </div>
+            <div *ngFor="let servizio of serviziCentroList; index as i">
+                <div (click)="onShowDetail(servizio.servizio)" class="row-title">
+                    <span class="servizio-list">
+                        {{servizio.servizio}}
+                        <i *ngIf="detailToShow !== servizio.servizio" class="fa fa-chevron-down arrow arrow-grey"></i>
+                        <i *ngIf="detailToShow === servizio.servizio" class="fa fa-chevron-up arrow arrow-blue"></i>
+                    </span>
                 </div>
-            </div>
-            <div (click)="onShowDetail('massoterapia')" class="row-title">
-                <span class="servizio-list">
-                    Massoterapia
-                    <i *ngIf="detailToShow !== 'massoterapia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'massoterapia'" class="fa fa-chevron-up arrow arrow-blue"></i>
-                </span>
-            </div>
-            <hr *ngIf="detailToShow !== 'massoterapia'">
-            <div *ngIf="detailToShow === 'massoterapia'" class="detail-container">
-                <div class="dettaglioRow">
-                    <div id="dettaglioServizio">
-                        <p class="dettaglio">Massaggi Rilassanti</p>
-                        <p class="dettaglio">Massaggi Decontratturanti</p>
-                        <p class="dettaglio">Massaggi Sportivi</p>
-                        <p class="dettaglio">Tecarterapia</p>
-                        <p class="dettaglio">Trattamenti per cervicalgie, lombalgie ed altre patologie su prescrizione
-                            medica</p>
-                    </div>
-                </div>
-            </div>
-            <div (click)="onShowDetail('nutrizione')" class="row-title">
-                <span class="servizio-list">
-                    Nutrizione
-                    <i *ngIf="detailToShow !== 'nutrizione'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'nutrizione'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
-            </div>
-            <hr *ngIf="detailToShow !== 'nutrizione'">
-            <div *ngIf="detailToShow === 'nutrizione'" class="detail-container">
-                <div class="dettaglioRow">
-                    <div id="dettaglioServizio">
-                        <p class="dettaglio">Benessere</p>
-                        <p class="dettaglio">Dimagrimento</p>
-                        <p class="dettaglio">Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)</p>
-                        <p class="dettaglio">Problematiche Gastro-Intestinali</p>
-                    </div>
-                </div>
-            </div>
-            <div (click)="onShowDetail('ortopedia')" class="row-title">
-                <span class="servizio-list">
-                    Ortopedia
-                    <i *ngIf="detailToShow !== 'ortopedia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'ortopedia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
-            </div>
-            <hr *ngIf="detailToShow !== 'ortopedia'">
-            <div *ngIf="detailToShow === 'ortopedia'" class="detail-container">
-                <div class="dettaglioRow">
-                    <div id="dettaglioServizio">
-                        <p class="dettaglio">Diagnosi e Valutazione</p>
-                        <p class="dettaglio">Infiltrazioni</p>
-                        <p class="dettaglio">Monitoraggio percorso riabilitativo per sportivi e non</p>
-                    </div>
-                </div>
-            </div>
-            <div (click)="onShowDetail('osteopatia')" class="row-title">
-                <span class="servizio-list">
-                    Osteopatia
-                    <i *ngIf="detailToShow !== 'osteopatia'" class="fa fa-chevron-down arrow arrow-grey"></i>
-                    <i *ngIf="detailToShow === 'osteopatia'" class="fa fa-chevron-up arrow arrow-blue"></i> </span>
-            </div>
-            <div *ngIf="detailToShow === 'osteopatia'" class="detail-container">
-                <div class="dettaglioRow">
-                    <div id="dettaglioServizio">
-                        <p class="dettaglio">Manipolazioni Fasciali</p>
-                        <p class="dettaglio">Terapia Cranio-Sacrale</p>
-                        <p class="dettaglio">Terapia Viscerale</p>
-                        <p class="dettaglio">Trazioni Cervicali Manuali</p>
+                <hr *ngIf="detailToShow !== servizio.servizio">
+                <div *ngIf="detailToShow === servizio.servizio" class="detail-container">
+                    <div class="dettaglioRow">
+                        <div id="dettaglioServizio">
+                            <p class="dettaglio" *ngFor="let dettaglio of servizio.dettaglio; index as i">{{dettaglio}}
+                            </p>
+                            <button
+                                [routerLink]="['/team-page', selectedSpecialista.id, 'centro medico', servizio.servizio, 'true']"
+                                class="btn" style="float: right;">{{buttonText}}</button>
+                        </div>
                     </div>
                 </div>
             </div>

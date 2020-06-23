@@ -2,7 +2,8 @@
     {
         "id": "1",
         "area": "centro medico",
-        "servizio": "Visita ortopedica",
+        "visita": "Visita ortopedica",
+		"servizio" : "Ortopedia",
         "specialista": "Marco Galli",
         "specializzazione": "Medico ortopedico",
         "ruolo": "Collaboratore",
@@ -11,7 +12,8 @@
     {
         "id": "2",
         "area": "centro medico",
-        "servizio": "Visita nutrizionale",
+        "visita": "Visita nutrizionale",
+		"servizio" : "Nutrizione",
         "specialista": "Tancini Stefania",
         "specializzazione": "Nutrizionista e Biologa",
         "ruolo": "Collaboratrice",
@@ -20,7 +22,8 @@
 	{
         "id": "3",
         "area": "centro medico",
-        "servizio": "Visita fisioterapica",
+        "visita": "Visita fisioterapica",
+		"servizio" : "Fisioterapia",
         "specialista": "Ferraro Eduardo",
         "specializzazione": "Fisioterapista",
 		"ruolo": "Collaboratore",
@@ -29,7 +32,8 @@
 	{
         "id": "4",
         "area": "centro medico",
-        "servizio": "Visita osteopatica",
+        "visita": "Visita osteopatica",
+		"servizio" : "Osteopatia",
         "specialista": "Botto Francesco",
         "specializzazione": "Osteopata",
 		"ruolo": "Collaboratore",
@@ -38,7 +42,8 @@
 	{
         "id": "5",
         "area": "centro medico",
-        "servizio": "Visita ortopedica",
+        "visita": "Visita ortopedica",
+		"servizio" : "Ortopedia",
         "specialista": "Pulici Luca",
         "specializzazione": "Ortopedico",
 		"ruolo": "Collaboratore",
@@ -47,7 +52,8 @@
 	{
         "id": "6",
         "area": "centro medico",
-        "servizio": "Massofisioterapia",
+        "visita": "Massofisioterapia",
+		"servizio" : "Massoterapia",
         "specialista": "Ezio",
         "specializzazione": "Massofisioterapista",
 		"ruolo": "Collaboratore",

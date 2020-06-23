@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { Specialista } from './model';
+import { Specialista, Servizio } from './model';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +13,7 @@ export class VertexService {
   ) { }
 
   public getSpecPalestra(): Observable<Specialista[]> {
-    return this.httpClient.get<Specialista[]>('assets/specialisti palestra.json');
+    return  this.httpClient.get<Specialista[]>('assets/specialisti palestra.json');
   }
   public getSpecCentro(): Observable<Specialista[]> {
     return this.httpClient.get<Specialista[]>('assets/specialisti centro medico.json');
@@ -21,7 +21,7 @@ export class VertexService {
   // public getServiziPalestra(): Observable<Specialista[]> {
   //   return this.httpClient.get<Specialista[]>('assets/servizi palestra.json');
   // }
-  // public getServiziCentro(): Observable<Specialista[]> {
-  //   return this.httpClient.get<Specialista[]>('assets/servizi centro medico.json');
-  // }
+  public getServiziCentro(): Observable<Servizio[]> {
+    return this.httpClient.get<Servizio[]>('assets/servizi centro medico.json');
+  }
 }

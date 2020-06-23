@@ -31,7 +31,8 @@ const routes: Routes = [
     component: TeamCardsComponent
   },
   {
-    path: 'team-page/:id/:area',
+    path: 'team-page/:id/:area/:servizio/:isSpecFiltered',
+    runGuardsAndResolvers: 'always',
     component: TeamPageComponent
   },
   {
@@ -45,7 +46,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    onSameUrlNavigation: 'reload',
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

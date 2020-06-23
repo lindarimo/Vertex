@@ -2,7 +2,7 @@
 <app-navbar></app-navbar>
 
 
-<section class="content-section">
+<section  class="content-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-header text-center">
@@ -10,13 +10,21 @@
                     <object class="team" type="image/svg+xml" data="../../../assets/icons/team.svg">
                     </object>
                 </div>
-                <h3 class="section-title underline">Il nostro team</h3>
+                <h3 *ngIf="routerFilter === 'false'" class="section-title underline">Il nostro team</h3>
+                <h3 *ngIf="routerFilter === 'true'" class="section-title underline">{{titleText}}</h3>
                 <p class="section-subtitle">Competenza, professionalità, spirito di squadra</p>
             </div>
             <div class="col-md-12 text-center">
                 <p id="my_styles">
                     <button type="submit" class="btn btn-lg btn-palestra my-2" id="palestra">Palestra</button>
                     <button type="submit" class="btn btn-lg btn-centro my-2" id="centroMedico">Centro medico</button>
+                </p>
+            </div>
+            <div *ngIf="routerFilter === 'true'" class="col-md-12 text-center">
+                <p id="my_styles">
+                    <button type="submit" class="btn my-2" (click)="viewAllSpecialisti()"><i class="fa fa-undo"
+                            id="btn-undo"></i>
+                        Visualizza tutti gli specialisti</button>
                 </p>
             </div>
         </div>
@@ -44,7 +52,7 @@
                 </h5>
                 <hr>
                 <p class="cv" [innerHtml]="selectedSpecialista?.cv">
-                    
+
                 </p>
             </div>
         </div>
@@ -70,7 +78,7 @@
                     {{selectedSpecialista?.specializzazione}}
                 </h5>
                 <hr>
-                <p class="cv" [innerHtml]="selectedSpecialista?.cv">  
+                <p class="cv" [innerHtml]="selectedSpecialista?.cv">
                 </p>
             </div>
         </div>

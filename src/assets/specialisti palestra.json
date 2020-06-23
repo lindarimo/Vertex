@@ -2,6 +2,7 @@
     {
         "id": "1",
         "area": "palestra",
+        "visita": "Personal training",
         "servizio": "Personal training",
         "specialista": "Matteo Carbone",
         "specializzazione": "Personal trainer",
@@ -11,6 +12,7 @@
     {
         "id": "2",
         "area": "palestra",
+        "visita": "Personal training",
         "servizio": "Personal training",
         "specialista": "Davide Carbone",
         "specializzazione": "Personal trainer",

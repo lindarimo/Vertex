@@ -103,3 +103,12 @@
 .icon {
     margin-bottom: 12px;
 }
+.buttonClass {
+    @media (min-width: 760px) {
+        text-align: right;
+    }
+    @media (max-width: 380px) {
+        text-align: center;
+        margin: 20px;
+    }
+}
