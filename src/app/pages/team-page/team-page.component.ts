@@ -2,7 +2,6 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { VertexService } from 'src/app/vertex.service';
 import { Specialista } from 'src/app/model';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Location } from '@angular/common';
 import * as $ from 'jquery';
 
 @Component({
@@ -27,10 +26,11 @@ export class TeamPageComponent implements OnInit {
     private vertexService: VertexService,
     private route: ActivatedRoute,
     private router: Router,
-    private location: Location
   ) { }
 
   ngOnInit() {
+    window.scroll(0, 0);
+
     this.routerId = this.route.snapshot.paramMap.get('id');
     this.routerArea = this.route.snapshot.paramMap.get('area');
     this.routerServizio = this.route.snapshot.paramMap.get('servizio');
