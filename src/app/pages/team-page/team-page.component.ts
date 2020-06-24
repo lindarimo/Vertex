@@ -51,11 +51,6 @@ export class TeamPageComponent implements OnInit {
       $('#' + this.routerId).addClass('activeImg');
     }
 
-    // $('#btn-undo').on('click', function () {
-    //   console.log('ciao');
-    //   self.showAllSpecialisti();
-    // });
-
     // Gestisco il toggle della selezione dei bottoni
     $('#my_styles .btn-lg').on('click', function () {
       $('#my_styles .btn-lg').removeClass('activeBtn');
@@ -64,10 +59,14 @@ export class TeamPageComponent implements OnInit {
         self.isPalestraSelected = false;
         self.routerArea = 'centro medico';
         self.onShowDetail(self.specCentroList[0]);
+        self.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
+          self.router.navigate(['/team-page', '1', 'centro medico', 'Ortopedia', 'false']));
       } else {
         self.isPalestraSelected = true;
         self.routerArea = 'palestra';
         self.onShowDetail(self.specPalestraList[0]);
+        self.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
+          self.router.navigate(['/team-page', '1', 'palestra', 'Personal training', 'false']));
       }
       self.routerId = '1';
     });
@@ -139,7 +138,12 @@ export class TeamPageComponent implements OnInit {
   }
 
   viewAllSpecialisti() {
-    this.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
-      this.router.navigate(['/team-page', '1', 'palestra', 'Personal training', 'false']));
+    if (this.routerArea === 'palestra') {
+      this.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
+        this.router.navigate(['/team-page', '1', 'palestra', 'Personal training', 'false']));
+    } else if (this.routerArea === 'centro medico') {
+      this.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
+        this.router.navigate(['/team-page', '1', 'centro medico', 'Ortopedia', 'false']));
+    }
   }
 }
