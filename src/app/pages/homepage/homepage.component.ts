@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { VertexService } from '../../vertex.service';
 import { Specialista } from 'src/app/model';
 @Component({
@@ -7,7 +7,6 @@ import { Specialista } from 'src/app/model';
   styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent implements OnInit {
-
   public specPalestraList: Specialista[];
   public specCentroList: Specialista[];
 
@@ -16,6 +15,8 @@ export class HomepageComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    window.scroll(0, 0);
+
     this.loadSpecialisti();
   }
   loadSpecialisti() {
