@@ -3,7 +3,6 @@
 @import "~font-awesome/css/font-awesome.css";
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: small;
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
   color: #787878;
@@ -134,10 +133,9 @@ body {
 }
 .content-section .section-subtitle {
   color: #787878;
-  font-weight: 600;
 }
 .underline {
-  border-bottom: 0.5px solid #ccc;
+  border-bottom: 0.5px solid #1766b0;
 }
 .feature-box {
   background: #f2f2f2;
@@ -147,13 +145,13 @@ body {
 }
 .feature-box .icon {
   color: #1766b0;
-  font-size: 52px;
   display: block;
-  margin-bottom: 12px;
+  //margin-bottom: 12px;
 }
 .feature-box .feature-desc {
-  text-align: left;
+  text-align: center;
   color: #787878;
+  margin-top: 10px;
 }
 p {
   margin-bottom: 1.75em;

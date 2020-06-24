@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-12 section-header text-center">
                 <div class="icon">
-                    <object class="team" type="image/svg+xml" data="../../../assets/icons/team.svg">
+                    <object class="team" type="image/svg+xml" data="../../../assets/icons/teamBlue.svg">
                     </object>
                 </div>
                 <h3 *ngIf="routerFilter === 'false'" class="section-title underline">Il nostro team</h3>
@@ -45,7 +45,7 @@
         <div class="dettaglioRow">
             <div id="dettaglioSpecialista">
                 <h3>
-                    {{selectedSpecialista?.specialista}}
+                    {{selectedSpecialista?.nome}} {{selectedSpecialista?.cognome}}
                 </h3>
                 <h5 class="subtitle">
                     {{selectedSpecialista?.specializzazione}}
@@ -72,7 +72,7 @@
         <div class="dettaglioRow">
             <div id="dettaglioSpecialista">
                 <h3>
-                    {{selectedSpecialista?.specialista}}
+                    {{selectedSpecialista?.nome}} {{selectedSpecialista?.cognome}}
                 </h3>
                 <h5 class="subtitle">
                     {{selectedSpecialista?.specializzazione}}

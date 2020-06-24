@@ -3,7 +3,8 @@ export class Specialista {
     public area: string;
     public visita: string;
     public servizio: string;
-    public specialista: string;
+    public nome: string;
+    public cognome: string;
     public specializzazione: string;
     public ruolo: string;
     public cv: string;

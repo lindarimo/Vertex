@@ -4,7 +4,8 @@
         "area": "palestra",
         "visita": "Personal training",
         "servizio": "Personal training",
-        "specialista": "Matteo Carbone",
+        "nome": "Matteo",
+        "cognome": "Carbone",
         "specializzazione": "Personal trainer",
         "ruolo": "Founder",
         "cv": "Molto bravo ad allenare gente "
@@ -14,7 +15,8 @@
         "area": "palestra",
         "visita": "Personal training",
         "servizio": "Personal training",
-        "specialista": "Davide Carbone",
+        "nome": "Davide",
+        "cognome": "Carbone",
         "specializzazione": "Personal trainer",
         "ruolo": "Founder",
         "cv": "Molto bravo ad allenare gente e si diverte molto"

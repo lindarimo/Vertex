@@ -3,60 +3,55 @@
         "id": "1",
         "area": "centro medico",
         "visita": "Visita ortopedica",
-		"servizio" : "Ortopedia",
-        "specialista": "Marco Galli",
+        "servizio": "Ortopedia",
+        "nome": "Marco",
+        "cognome": "Galli",
         "specializzazione": "Medico ortopedico",
         "ruolo": "Collaboratore",
-		"cv": "Il dr. <b>Marco Cesare Galli</b> è ortopedico traumatologo presso il Centro di Traumatologia dello Sport e Chirurgia Artroscopica (C.T.S.) dell’IRCCS Istituto Ortopedico Galeazzi e presso la Casa di Cura la Madonnina. <p>Si laurea in Medicina e Chirurgia all’Università degli Studi di Milano nel 1995, dove consegue anche la specializzazione in Ortopedia e Traumatologia.</p><p> Nel 2011 frequenta e consegue il Master universitario in Biomeccanica Patologia e Trattamento Terapeutico dell’Arto Superiore all’Università di Bologna polo di Rimini. </p><p>Al termine degli studi, il dr.Galli intraprende, in Italia e all’estero, un lungo percorso formativo sulla chirurgia del ginocchio e della spalla e sulla traumatologia sportiva. </p><p>L’attività clinica del dr.Galli è rivolta alla diagnosi, al trattamento conservativo e chirurgico delle patologie traumatiche e degenerative artrosiche di ginocchio, spalla e caviglia. </p><p>Si occupa inoltre delle traumatologia sportiva dei distretti articolari di ginocchio, spalla e caviglia e delle patologie muscolo-tendinee acute e da overuse.</p>"
+        "cv": "Il dr. <b>Marco Cesare Galli</b> è ortopedico traumatologo presso il Centro di Traumatologia dello Sport e Chirurgia Artroscopica (C.T.S.) dell’IRCCS Istituto Ortopedico Galeazzi e presso la Casa di Cura la Madonnina. <p>Si laurea in Medicina e Chirurgia all’Università degli Studi di Milano nel 1995, dove consegue anche la specializzazione in Ortopedia e Traumatologia.</p><p> Nel 2011 frequenta e consegue il Master universitario in Biomeccanica Patologia e Trattamento Terapeutico dell’Arto Superiore all’Università di Bologna polo di Rimini. </p><p>Al termine degli studi, il dr.Galli intraprende, in Italia e all’estero, un lungo percorso formativo sulla chirurgia del ginocchio e della spalla e sulla traumatologia sportiva. </p><p>L’attività clinica del dr.Galli è rivolta alla diagnosi, al trattamento conservativo e chirurgico delle patologie traumatiche e degenerative artrosiche di ginocchio, spalla e caviglia. </p><p>Si occupa inoltre delle traumatologia sportiva dei distretti articolari di ginocchio, spalla e caviglia e delle patologie muscolo-tendinee acute e da overuse.</p>"
     },
     {
         "id": "2",
         "area": "centro medico",
         "visita": "Visita nutrizionale",
-		"servizio" : "Nutrizione",
-        "specialista": "Tancini Stefania",
+        "servizio": "Nutrizione",
+        "nome": "Stefania",
+        "cognome": "Tancini",
         "specializzazione": "Nutrizionista e Biologa",
         "ruolo": "Collaboratrice",
-		"cv": "Laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano. Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici. La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
+        "cv": "Laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. <p>Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano.</p><p>Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici.</p><p>La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
     },
-	{
+    {
         "id": "3",
         "area": "centro medico",
         "visita": "Visita fisioterapica",
-		"servizio" : "Fisioterapia",
-        "specialista": "Ferraro Eduardo",
+        "servizio": "Fisioterapia",
+        "nome": "Eduardo",
+        "cognome": "Ferraro",
         "specializzazione": "Fisioterapista",
-		"ruolo": "Collaboratore",
-		"cv": "Il Dr. Ferraro Eduardo lavora come fisioterapista presso l’IRCCS Istituto Ortopedico Galeazzi ed opera anche in libera professione. Si laurea in Fisioterapia nel 2014 presso l’Università Statale di Milano con un eccellente tesi eseguita in collaborazione con l’Unità Spinale dell’Ospedale Niguarda Ca’ Granda. Nel 2018 consegue il Master di I Livello in Fisioterapia Sportiva presso L’Università degli Studi di Pisa. Ha collaborato con diverse realtà sportive agonistiche. Attualmente sta portando a termine il Master di I livello in Riabilitazione dei disturbi muscolo-scheletrici presso l’Università degli Studi di Genova."
+        "ruolo": "Collaboratore",
+        "cv": "Il Dr. <b>Ferraro Eduardo</b> lavora come fisioterapista presso l’IRCCS Istituto Ortopedico Galeazzi ed opera anche in libera professione. <p>Si laurea in Fisioterapia nel 2014 presso l’Università Statale di Milano con un eccellente tesi eseguita in collaborazione con l’Unità Spinale dell’Ospedale Niguarda Ca’ Granda. Nel 2018 consegue il Master di I Livello in Fisioterapia Sportiva presso L’Università degli Studi di Pisa.</p><p>Ha collaborato con diverse realtà sportive agonistiche. Attualmente sta portando a termine il Master di I livello in Riabilitazione dei disturbi muscolo-scheletrici presso l’Università degli Studi di Genova."
     },
-	{
+    {
         "id": "4",
         "area": "centro medico",
         "visita": "Visita osteopatica",
-		"servizio" : "Osteopatia",
-        "specialista": "Botto Francesco",
+        "servizio": "Osteopatia",
+        "nome": "Francesco",
+        "cognome": "Botto",
         "specializzazione": "Osteopata",
-		"ruolo": "Collaboratore",
-		"cv": "....."
+        "ruolo": "Collaboratore",
+        "cv": "....."
     },
-	{
+    {
         "id": "5",
         "area": "centro medico",
         "visita": "Visita ortopedica",
-		"servizio" : "Ortopedia",
-        "specialista": "Pulici Luca",
+        "servizio": "Ortopedia",
+        "nome": "Luca",
+        "cognome": "Pulici",
         "specializzazione": "Ortopedico",
-		"ruolo": "Collaboratore",
-		"cv": "....."
-    },
-	{
-        "id": "6",
-        "area": "centro medico",
-        "visita": "Massofisioterapia",
-		"servizio" : "Massoterapia",
-        "specialista": "Ezio",
-        "specializzazione": "Massofisioterapista",
-		"ruolo": "Collaboratore",
-		"cv": "....."
+        "ruolo": "Collaboratore",
+        "cv": "....."
     }
 ]

@@ -5,7 +5,6 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CentromedicoComponent } from './components/servizi-detail/centromedico/centromedico.component';
 import { TeamCardsComponent } from './components/team-cards/team-cards.component';
 import { TeamPageComponent } from './pages/team-page/team-page.component';
-import { SpecialistaComponent } from './components/specialista/specialista.component';
 import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
 import { WherePageComponent } from './pages/where-page/where-page.component';
 
