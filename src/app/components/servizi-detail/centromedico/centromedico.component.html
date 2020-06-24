@@ -38,7 +38,7 @@
                         <div id="dettaglioServizio">
                             <p class="dettaglio" *ngFor="let dettaglio of servizio.dettaglio; index as i">{{dettaglio}}
                             </p>
-                            <button
+                            <button *ngIf="selectedSpecialista"
                                 [routerLink]="['/team-page', selectedSpecialista.id, 'centro medico', servizio.servizio, 'true']"
                                 class="btn" style="float: right;">{{buttonText}}</button>
                         </div>
