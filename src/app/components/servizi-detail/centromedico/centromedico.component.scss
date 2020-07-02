@@ -126,15 +126,18 @@
     }
     @media (min-width: 760px ) {
         position: absolute;
-        left: 40%;
+        left: 50%;
     }
-    @media (min-width: 900px ) {
+    @media (min-width: 1024px ) {
+        position: absolute;
+        left: 60%;
+    }
+    @media (min-width: 1200px ) {
         position: absolute;
         left: 50%;
     }
     @media (min-width: 1500px ) {
         position: absolute;
-        left: 30%;
     }
 }
 .arrow-grey {
