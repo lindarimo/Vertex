@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef, HostListener } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,8 @@ export class AppComponent implements OnInit {
   title = 'Vertex';
   isShow: boolean;
   topPosToStartShowing = 100;
+
+  private cookieValue: string;
 
   @HostListener('window:scroll')
   checkScroll() {
@@ -37,7 +40,9 @@ export class AppComponent implements OnInit {
   }
 
 
-  constructor() { }
-  ngOnInit() {
+  constructor(private cookieService: CookieService) { }
+  ngOnInit(): void {
+    this.cookieService.set('cookie-name', 'our cookie value');
+    this.cookieValue = this.cookieService.get('cookie-name');
   }
 }

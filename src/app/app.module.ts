@@ -16,6 +16,7 @@ import { TeamCardsComponent } from './components/team-cards/team-cards.component
 import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
 import { WherePageComponent } from './pages/where-page/where-page.component';
+import { CookieService } from 'ngx-cookie-service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,7 @@ import { WherePageComponent } from './pages/where-page/where-page.component';
     HttpClientModule,
     AngularFontAwesomeModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent],
   exports: [
     AppComponent,
