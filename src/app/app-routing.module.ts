@@ -7,6 +7,7 @@ import { TeamCardsComponent } from './components/team-cards/team-cards.component
 import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
 import { WherePageComponent } from './pages/where-page/where-page.component';
+import { WorkWithUsComponent } from './pages/work-with-us/work-with-us.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path: 'where-page',
     component: WherePageComponent
+  },
+  {
+    path: 'work-with-us',
+    component: WorkWithUsComponent
   },
   /* {
     path: '**',

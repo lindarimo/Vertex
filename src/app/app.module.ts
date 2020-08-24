@@ -17,6 +17,7 @@ import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.component';
 import { WherePageComponent } from './pages/where-page/where-page.component';
 import { CookieService } from 'ngx-cookie-service';
+import { WorkWithUsComponent } from './pages/work-with-us/work-with-us.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { CookieService } from 'ngx-cookie-service';
     TeamCardsComponent,
     TeamPageComponent,
     WherePageComponent,
+    WorkWithUsComponent,
   ],
   imports: [
     BrowserModule,
