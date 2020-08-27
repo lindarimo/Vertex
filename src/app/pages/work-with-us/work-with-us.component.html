@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 
-<section class="content-section">
+<section class="content-section appearance-transformation">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-header text-center">
@@ -9,48 +9,18 @@
                     </object>
                 </div>
                 <h3 class="section-title underline">Lavora con noi</h3>
-                <p class="section-subtitle">Bla bla bla...</p>
+                <p class="section-subtitle">Siamo sempre alla ricerca di nuove figure specialistiche con cui
+                    collaborare. <br>Cerchiamo <i>affidabilità</i>, <i>spirito di squadra</i> e tanta voglia di
+                    <i>mettersi in gioco</i>.</p>
+                <p class="section-subtitle">Inviaci il tuo Curriculum Vitae a
+                    <span class="section-title text-center"><a value="info@vertexarese.it"
+                            (click)="copyMessage('info@vertexarese.it')" (onmouseout)="outFunc()"><span
+                                class="tooltiptext" id="myTooltip"></span>
+                            info@vertexarese.it </a></span></p>
             </div>
         </div>
     </div>
 </section>
-
-<section id="work-with-us">
-    <div class="image-holder col-lg-6 col-md-12 col-sm-12 col-xs-12 pull-left">
-        <div class="background-imgholder">
-        </div>
-    </div>
-    <div class="col-lg-7 col-lg-offset-5 col-md-12 col-md-offset-5 col-sm-12 col-sm-offset-12 col-xs-12 text-inner ">
-        <div class="text-block row">
-            <div class="col-md-12">
-                <div class="detail-container">
-                    <div class="dettaglioRow">
-                        <div id="dettaglioWork">
-                            <p>Lavora con noi
-
-                                bla bla
-
-                                ....
-                            </p>
-                            <h3>
-                                Contattaci:
-
-                            </h3>
-                            <span>
-                                <i class="fa fa-envelope envelope"></i>
-                                <a class="email" href="#" value="info@vertexarese.it"
-                                        (click)="copyMessage('info@vertexarese.it')" (onmouseout)="outFunc()"><span></span>
-                                        info@vertexarese.it </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="content-section">
 </section>
-
 <app-footer></app-footer>

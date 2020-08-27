@@ -18,6 +18,9 @@ import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.
 import { WherePageComponent } from './pages/where-page/where-page.component';
 import { CookieService } from 'ngx-cookie-service';
 import { WorkWithUsComponent } from './pages/work-with-us/work-with-us.component';
+import { ModalService } from './modal.service';
+import { ModalComponent } from './directives/modal.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +35,7 @@ import { WorkWithUsComponent } from './pages/work-with-us/work-with-us.component
     TeamPageComponent,
     WherePageComponent,
     WorkWithUsComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,8 +43,9 @@ import { WorkWithUsComponent } from './pages/work-with-us/work-with-us.component
     NgbModule,
     HttpClientModule,
     AngularFontAwesomeModule,
+    FormsModule
   ],
-  providers: [CookieService],
+  providers: [CookieService, ModalService],
   bootstrap: [AppComponent],
   exports: [
     AppComponent,
