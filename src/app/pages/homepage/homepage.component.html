@@ -1,9 +1,39 @@
+<jw-modal id="custom-modal-1">
+    <div class="row" style="display: flow-root;">
+        <button class="btn" (click)="closeModal('custom-modal-1');"
+            style="float: right; margin-right: 40px; margin-top: 20px;">X</button>
+    </div>
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-header text-center">
+                    <div class="icon">
+                        <object class="open" type="image/svg+xml" data="../../../assets/icons/openBlue.svg">
+                        </object>
+                    </div>
+                    <h3 class="section-title underline">Nuova apertura!</h3>
+                    <h6 class="section-subtitle">Ottobre 2020: centro medico
+                        POLISPECIALISTICO</h6>
+                    <br>
+                    <p>
+                        A soli due anni di distanza dall’approdo in Arese, ecco un ennesimo grande passo: Vertex si
+                        espande ancora. Aprirà i battenti durante i primi giorni di ottobre 2020 un’intera area
+                        completamente dedicata alla cura della persona, un centro medico polispecialistico che riunirà i
+                        migliori professionisti del settore presenti sul territorio.
+                    </p>
+                    <button class="btn" routerLink="/centromedico">Scopri tutti i servizi</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</jw-modal>
+
 <app-navbar></app-navbar>
 
 <app-carousel></app-carousel>
 
 <app-servizi-cards></app-servizi-cards>
 
-<app-team-cards [specPalestraList] = "specPalestraList" [specCentroList] = "specCentroList"></app-team-cards>
+<app-team-cards [specPalestraList]="specPalestraList" [specCentroList]="specCentroList"></app-team-cards>
 
 <app-footer></app-footer>
