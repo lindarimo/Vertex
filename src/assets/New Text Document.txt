@@ -1,0 +1,11 @@
+{
+        "id": "7",
+        "area": "centro medico",
+        "visita": "Visita massoterapica",
+        "servizio": "Massoterapia",
+        "nome": "Ezio",
+        "cognome": "Nosella",
+        "specializzazione": "Massoterapista",
+        "ruolo": "Collaboratrice",
+        "cv": "Diploma di Massoterapista presso l’A.MI. UNIVERSITY di Milano nel 1995 e numerosi successivi corsi di specializzazione in: <ul><li>reiki</li><li<parapsicologia (presso Dr Inardi)</li><li>linfodrenaggio</li><li>tens / ultrasuoni / radar / magnetoterapia / tecar e onde d’urto</li><li>trattamento manuale miofasciale (trigger point)</li><li>iridologia</li></ul></p><p>Nel frattempo ha frequentato il Corso Regionale  per l’aggiornamento al diploma di M.C.B. (Massaggiatore Capo Bagnino) e ha presentato domanda presso il Ministero della Sanità per l’equipollenza in Fisioterapia.</p><p>Grande l’esperienza acquisita collaborando con altri validi Professionisti e svolgendo la propria attività professionale in numerosi Centri Medici e Fisioterapici della zona.</p>"
+    },

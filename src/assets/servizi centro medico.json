@@ -49,10 +49,12 @@
         "id": 5,
         "servizio": "Osteopatia",
         "dettaglio": [
-			"Manipolazioni Fasciali",
-			"Terapia Cranio-Sacrale",
-            "Terapia Viscerale",
-            "Trazioni Cervicali Manuali"   
+			"Osteopatia per la gravidanza ed il post partum",
+			"Osteopatia pediatrica",
+            "Osteopatia preventiva",
+            "Osteopatia per lo sportivo",   
+            "Osteopatia per la risoluzione di problematiche acute",   
+            "Osteopatia per l'anziano"
         ]
     }
 ]
