@@ -35,13 +35,13 @@
     {
         "id": "4",
         "area": "centro medico",
-        "visita": "Visita osteopatica",
-        "servizio": "Osteopatia",
-        "nome": "Francesco",
-        "cognome": "Botto",
-        "specializzazione": "Osteopata",
-        "ruolo": "Collaboratore",
-        "cv": "<p>Il Dr. <b>Botto Francesco</b>, dopo essersi Laureato in Scienze Motorie e dello Sport, consegue un master in Interventi Assistiti con gli Animali; infine conclude gli studi in Osteopatia. Un percorso multidisciplinare completo lo rende oggi in grado di approcciare i pazienti con una visione olistica a 360°. Lavora da sempre come istruttore di sport individuali e di squadra: principalmente Nuoto e Basket.</p><p>Pratica la sua professione cardine, quella di Osteopata, non solo alla Vertex ma anche nel suo studio privato a Milano.</p>"
+        "visita": "Visita fisioterapica",
+        "servizio": "Fisioterapia",
+        "nome": "Daniela",
+        "cognome": "Cardella",
+        "specializzazione": "Fisioterapista",
+        "ruolo": "Collaboratrice",
+        "cv": "<p>La Dott.ssa <b>Cardella Daniela</b>, dopo essersi laureata a pieni voti in fisioterapia presso l’Università degli studi di Milano nel 2011 , si specializza in terapia manuale secondo il concetto Maitlan (I e II livello) con particolare attenzione alle problematiche e disfunzioni della colonna vertebrale. Completa la propria formazione partecipando a numerosi corsi di formazione. Ha volto la professione per diversi anni a Milano presso importanti e rinomati centri riabilitativi accreditati con i SSN e presso studi privati. Tra le tante competenze acquisite spiccano: riabilitazione del pavimento pelvico, riabilitazione ortopedica e neuorologica, terapie fisiche strumentali, rieducazione posturale.</p>"
     },
     {
         "id": "5",
@@ -56,6 +56,17 @@
     },
     {
         "id": "6",
+        "area": "centro medico",
+        "visita": "Visita osteopatica",
+        "servizio": "Osteopatia",
+        "nome": "Francesco",
+        "cognome": "Botto",
+        "specializzazione": "Osteopata",
+        "ruolo": "Collaboratore",
+        "cv": "<p>Il Dr. <b>Botto Francesco</b>, dopo essersi Laureato in Scienze Motorie e dello Sport, consegue un master in Interventi Assistiti con gli Animali; infine conclude gli studi in Osteopatia. Un percorso multidisciplinare completo lo rende oggi in grado di approcciare i pazienti con una visione olistica a 360°. Lavora da sempre come istruttore di sport individuali e di squadra: principalmente Nuoto e Basket.</p><p>Pratica la sua professione cardine, quella di Osteopata, non solo alla Vertex ma anche nel suo studio privato a Milano.</p>"
+    },
+    {
+        "id": "7",
         "area": "centro medico",
         "visita": "Visita nutrizionale",
         "servizio": "Nutrizione",
