@@ -36,7 +36,7 @@
         <div class="team-list-img tab-pane active">
             <span *ngFor="let specialista of specPalestraList; index as i">
                 <a (click)="onShowDetail(specialista)">
-                    <img src="../../../assets/Specialisti/Palestra/{{specialista.id}}.jpg" alt="Avatar"
+                    <img src="../../../assets/Specialisti/{{specialista.id}}.jpg" alt="Avatar"
                         class="imgSpecialista" id="{{specialista?.id}}"
                         [ngClass]="{'activeImg' : routerId === specialista?.id}">
                 </a>
@@ -63,7 +63,7 @@
         <div class="team-list-img tab-pane active">
             <span *ngFor="let specialista of specCentroList; index as i">
                 <a (click)="onShowDetail(specialista)">
-                    <img src="../../../assets/Specialisti/Centro Medico/{{specialista.id}}.jpg" alt="Avatar"
+                    <img src="../../../assets/Specialisti/{{specialista.id}}.jpg" alt="Avatar"
                         class="imgSpecialista" id="{{specialista?.id}}"
                         [ngClass]="{'activeImg' : routerId === specialista?.id}">
                 </a>

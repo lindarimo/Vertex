@@ -18,7 +18,7 @@ import { ServiziCardsComponent } from './components/servizi-cards/servizi-cards.
 import { WherePageComponent } from './pages/where-page/where-page.component';
 import { CookieService } from 'ngx-cookie-service';
 import { WorkWithUsComponent } from './pages/work-with-us/work-with-us.component';
-import { ModalService } from './modal.service';
+import { ModalService } from './services/modal.service';
 import { ModalComponent } from './directives/modal.component';
 import { FormsModule } from '@angular/forms';
 @NgModule({

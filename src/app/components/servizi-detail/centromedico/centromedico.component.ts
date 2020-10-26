@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Specialista, Servizio } from 'src/app/model';
-import { VertexService } from 'src/app/vertex.service';
+import { Specialista, Servizio } from 'src/app/models/model';
+import { VertexService } from 'src/app/services/vertex.service';
 
 @Component({
   selector: 'app-centromedico',
@@ -11,7 +11,7 @@ export class CentromedicoComponent implements OnInit {
 
   specialisti: Specialista[] = [];
   public serviziCentroList: Servizio[];
-  public specCentroList: Specialista[];
+  public specialistiList: Specialista[];
   public isCollapsed = false;
   public detailToShow: string;
   public isServizioToShow = false;
@@ -30,8 +30,8 @@ export class CentromedicoComponent implements OnInit {
       this.serviziCentroList = data;
       console.log(this.serviziCentroList);
     });
-    this.vertexService.getSpecCentro().subscribe(data => {
-      this.specCentroList = data;
+    this.vertexService.getSpecialisti().subscribe(data => {
+      this.specialistiList = data.filter(x => x.area === 'centro medico');
     });
   }
   onShowDetail(servizio: string) {
@@ -68,7 +68,7 @@ export class CentromedicoComponent implements OnInit {
           break;
         }
       }
-      this.selectedSpecialista = this.specCentroList.find(specialista =>
+      this.selectedSpecialista = this.specialistiList.find(specialista =>
         specialista.servizio === servizio);
     } else {
       this.detailToShow = undefined;

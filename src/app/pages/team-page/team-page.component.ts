@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { VertexService } from 'src/app/vertex.service';
-import { Specialista } from 'src/app/model';
+import { VertexService } from 'src/app/services/vertex.service';
+import { Specialista } from 'src/app/models/model';
 import { ActivatedRoute, Router } from '@angular/router';
 import * as $ from 'jquery';
 
@@ -10,6 +10,7 @@ import * as $ from 'jquery';
   styleUrls: ['./team-page.component.scss']
 })
 export class TeamPageComponent implements OnInit {
+  public specialistiList: Specialista[];
   public specPalestraList: Specialista[];
   public specCentroList: Specialista[];
   public selectedSpecialista: Specialista;
@@ -60,28 +61,22 @@ export class TeamPageComponent implements OnInit {
         self.routerArea = 'centro medico';
         self.onShowDetail(self.specCentroList[0]);
         self.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
-          self.router.navigate(['/team-page', '1', 'centro medico', 'Ortopedia', 'false']));
+          self.router.navigate(['/team-page', self.specCentroList[0].id, 'centro medico', 'Ortopedia', 'false']));
       } else {
         self.isPalestraSelected = true;
         self.routerArea = 'palestra';
         self.onShowDetail(self.specPalestraList[0]);
         self.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
-          self.router.navigate(['/team-page', '1', 'palestra', 'Personal training', 'false']));
+          self.router.navigate(['/team-page', self.specPalestraList[0].id, 'palestra', 'Personal training', 'false']));
       }
-      self.routerId = '1';
+      //self.routerId = '1';
     });
   }
 
   loadServizi() {
-    this.vertexService.getSpecPalestra().subscribe(data => {
-      this.specPalestraList = data;
-      if (this.routerArea === 'palestra') {
-        this.selectedSpecialista = this.specPalestraList.find(specialista =>
-          specialista.id === this.routerId && specialista.area === this.routerArea);
-      }
-    });
-    this.vertexService.getSpecCentro().subscribe(data => {
-      this.specCentroList = data;
+    this.vertexService.getSpecialisti().subscribe(data => {
+      this.specCentroList = data.filter(x => x.area === 'centro medico');
+      this.specPalestraList = data.filter(x => x.area === 'palestra');
       // Controllo se devo visualizzare solo una categoria di specialisti (filtro)
       if (this.routerFilter === 'true') {
         if (this.routerArea === 'centro medico') {
@@ -126,6 +121,9 @@ export class TeamPageComponent implements OnInit {
       } else if (this.routerArea === 'centro medico' && this.routerFilter === 'false') {
         this.selectedSpecialista = this.specCentroList.find(specialista =>
           specialista.id === this.routerId && specialista.area === this.routerArea);
+      } else if (this.routerArea === 'palestra' && this.routerFilter === 'false') {
+        this.selectedSpecialista = this.specPalestraList.find(specialista =>
+          specialista.id === this.routerId && specialista.area === this.routerArea);
       }
     });
   }
@@ -140,10 +138,10 @@ export class TeamPageComponent implements OnInit {
   viewAllSpecialisti() {
     if (this.routerArea === 'palestra') {
       this.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
-        this.router.navigate(['/team-page', '1', 'palestra', 'Personal training', 'false']));
+        this.router.navigate(['/team-page', this.selectedSpecialista.id, 'palestra', this.selectedSpecialista.servizio, 'false']));
     } else if (this.routerArea === 'centro medico') {
       this.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
-        this.router.navigate(['/team-page', '1', 'centro medico', 'Ortopedia', 'false']));
+        this.router.navigate(['/team-page', this.selectedSpecialista.id, 'centro medico', this.selectedSpecialista.servizio, 'false']));
     }
   }
 }

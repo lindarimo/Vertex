@@ -1,15 +1,14 @@
 import { Component, OnInit, HostListener, AfterViewChecked, AfterViewInit } from '@angular/core';
-import { VertexService } from '../../vertex.service';
-import { Specialista } from 'src/app/model';
-import { ModalService } from 'src/app/modal.service';
+import { VertexService } from '../../services/vertex.service';
+import { Specialista } from 'src/app/models/model';
+import { ModalService } from 'src/app/services/modal.service';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent implements OnInit, AfterViewInit {
-  public specPalestraList: Specialista[];
-  public specCentroList: Specialista[];
+  public specialistiList: Specialista[];
 
   constructor(
     private vertexService: VertexService,
@@ -38,13 +37,8 @@ export class HomepageComponent implements OnInit, AfterViewInit {
   }
 
   loadSpecialisti() {
-    this.vertexService.getSpecPalestra().subscribe(data => {
-      console.log(data);
-      this.specPalestraList = data;
-    });
-    this.vertexService.getSpecCentro().subscribe(data => {
-      console.log(data);
-      this.specCentroList = data;
+    this.vertexService.getSpecialisti().subscribe(data => {
+      this.specialistiList = data;
     });
   }
 }

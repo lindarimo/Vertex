@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { VertexService } from '../../vertex.service';
-import { Specialista } from 'src/app/model';
+import { VertexService } from '../../services/vertex.service';
+import { Specialista } from 'src/app/models/model';
 @Component({
   selector: 'app-team-cards',
   templateUrl: './team-cards.component.html',
@@ -9,13 +9,11 @@ import { Specialista } from 'src/app/model';
 })
 export class TeamCardsComponent implements OnInit {
 
-  @Input() specPalestraList: Specialista[];
-  @Input() specCentroList: Specialista[];
+  @Input() specialistiList: Specialista[];
   @Input() selectedSpecialista: Specialista;
   public status = false;
 
-  constructor(
-    private vertexService: VertexService ) { }
+  constructor() { }
 
   ngOnInit() {
   }
