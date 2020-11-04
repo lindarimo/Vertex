@@ -69,7 +69,6 @@ export class TeamPageComponent implements OnInit {
         self.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
           self.router.navigate(['/team-page', self.specPalestraList[0].id, 'palestra', 'Personal training', 'false']));
       }
-      //self.routerId = '1';
     });
   }
 

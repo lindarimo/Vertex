@@ -90,6 +90,17 @@
     {
         "id": "9",
         "area": "centro medico",
+        "visita": "Visica psicoterapica",
+        "servizio": "Psicoterapia",
+        "nome": "Monica",
+        "cognome": "Dellupi",
+        "specializzazione": "Psicologa e psicoterapeuta",
+        "ruolo": "Collaboratrice",
+        "cv": "La Dott.ssa <b>Monica Dellupi</b>, è psicologa e psicoterapeuta cognitivo comportamentale. Perfezionata in Consulenza dell’Orientamento Scolastico e Professionale ed Esperta in Processi Formativi Multimediali. <p>Ha esperienza pluriennale presso aziende multinazionali e società di consulenza nell’ambito della formazione comportamentale e della selezione del personale. Nel suo percorso professionale si è occupata della valutazione dello stress lavoro correlato e della formazione in ambito della psicologia applicata alla sicurezza sul lavoro.</p><p>Ha partecipato allo start up di una piattaforma che consente di erogare consulenze psicologiche on line, come esperta in materia per coordinamento editoriale.</p><p>L’interesse e l’intervento in ambito clinico sono rivolti principalmente ai disturbi d’ansia e del comportamento alimentare. Da anni pratica la libera professione, da poco giunta negli studi Vertex.</p>"
+    },
+    {
+        "id": "10",
+        "area": "centro medico",
         "visita": "Visita nutrizionale",
         "servizio": "Nutrizione",
         "nome": "Stefania",
@@ -99,7 +110,7 @@
         "cv": "La Dott.ssa <b>Stefania Tancini</b>, laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. <p>Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano.</p><p>Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici.</p><p>La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
     },
     {
-        "id": "10",
+        "id": "11",
         "area": "palestra",
         "visita": "Personal training",
         "servizio": "Personal training",

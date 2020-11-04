@@ -44,7 +44,6 @@
             "Monitoraggio percorso riabilitativo per sportivi e non"
         ]
     },
-
     {
         "id": 5,
         "servizio": "Osteopatia",
@@ -55,6 +54,15 @@
             "Osteopatia per lo sportivo",   
             "Osteopatia per la risoluzione di problematiche acute",   
             "Osteopatia per l'anziano"
+        ]
+    },
+    {
+        "id": 6,
+        "servizio": "Psicoterapia",
+        "dettaglio": [
+			"Disturbi alimentari",
+			"Gestione dello stress / ansia",
+            "Mental coaching"
         ]
     }
 ]

@@ -67,6 +67,12 @@ export class CentromedicoComponent implements OnInit {
           $('.background-imgholder').css('background-image', 'url("../../../../assets/images/osteopata.jpg")');
           break;
         }
+        case 'Psicoterapia': {
+          this.buttonText = 'I nostri psicoterapisti';
+          this.detailToShow = 'Psicoterapia';
+          $('.background-imgholder').css('background-image', 'url("../../../../assets/images/psicoterapeuta.jpg")');
+          break;
+        }
       }
       this.selectedSpecialista = this.specialistiList.find(specialista =>
         specialista.servizio === servizio);
