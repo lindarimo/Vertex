@@ -36,7 +36,7 @@ export class TeamPageComponent implements OnInit {
     window.scroll(0, 0);
 
     // tslint:disable-next-line:max-line-length
-    this.title.setTitle('Vertex Arese - Palestra e centro medico polispecialistico | i nostri specialisti');
+    this.title.setTitle('Vertex Arese - Palestra e centro medico polispecialistico | Gaia Fulginiti - osteopata');
     // tslint:disable-next-line:max-line-length
     this.meta.updateTag({ name: 'description', content: 'I nostri specialisti: Marco Galli (ortopedico), Carlo Perfetti (ortopedico), Eduardo Ferrario (fisioterapista), Daniela Cardella (fisioterapista), Gaia Fulginiti (osteopata), Francesco Botto (osteopata), Monica Dellupi (psicoterapeuta), Stefania Tancini (nutrizionista)' });
 
