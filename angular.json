@@ -25,7 +25,8 @@
             "aot": false,
             "assets": [
               "src/img/logo.jpg",
-              "src/assets"
+              "src/assets",
+              "src/assets/sitemap.xml"
             ],
             "styles": [
               "src/styles.scss"
@@ -90,7 +91,8 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/img/logo.jpg",
-              "src/assets"
+              "src/assets",
+              "src/assets/sitemap.xml"
             ],
             "styles": [
               "src/styles.scss",
