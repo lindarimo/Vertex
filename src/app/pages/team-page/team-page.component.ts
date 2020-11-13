@@ -3,6 +3,7 @@ import { VertexService } from 'src/app/services/vertex.service';
 import { Specialista } from 'src/app/models/model';
 import { ActivatedRoute, Router } from '@angular/router';
 import * as $ from 'jquery';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-team-page',
@@ -27,10 +28,17 @@ export class TeamPageComponent implements OnInit {
     private vertexService: VertexService,
     private route: ActivatedRoute,
     private router: Router,
+    private title: Title,
+    private meta: Meta
   ) { }
 
   ngOnInit() {
     window.scroll(0, 0);
+
+    // tslint:disable-next-line:max-line-length
+    this.title.setTitle('Vertex Arese - Palestra e centro medico polispecialistico | i nostri specialisti');
+    // tslint:disable-next-line:max-line-length
+    this.meta.updateTag({ name: 'description', content: 'I nostri specialisti: Marco Galli (ortopedico), Carlo Perfetti (ortopedico), Eduardo Ferrario (fisioterapista), Daniela Cardella (fisioterapista), Gaia Fulginiti (osteopata), Francesco Botto (osteopata), Monica Dellupi (psicoterapeuta), Stefania Tancini (nutrizionista)' });
 
     this.routerId = this.route.snapshot.paramMap.get('id');
     this.routerArea = this.route.snapshot.paramMap.get('area');

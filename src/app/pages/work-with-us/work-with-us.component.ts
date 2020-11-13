@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-work-with-us',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkWithUsComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private title: Title,
+    private meta: Meta
+  ) { }
 
   ngOnInit() {
+    // tslint:disable-next-line:max-line-length
+    this.title.setTitle('Vertex Arese - Palestra e centro medico polispecialistico | Lavora con noi');
+    // tslint:disable-next-line:max-line-length
+    this.meta.updateTag({ name: 'description', content: 'Inviaci il tuo Curriculum Vitae a info@vertexarese.it' });
   }
   copyMessage(val: string) {
     const selBox = document.createElement('textarea');
