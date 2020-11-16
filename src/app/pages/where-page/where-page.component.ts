@@ -1,5 +1,4 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-where-page',
@@ -24,14 +23,8 @@ export class WherePageComponent implements OnInit, AfterViewInit {
     map: this.map,
   });
 
-  constructor(
-    private title: Title,
-    private meta: Meta) { }
+  constructor() { }
   ngOnInit() {
-    // tslint:disable-next-line:max-line-length
-    this.title.setTitle('Vertex Arese - Palestra e centro medico polispecialistico | dove siamo');
-    // tslint:disable-next-line:max-line-length
-    this.meta.updateTag({ name: 'description', content: 'Arese(MI) - Via XXV Aprile, 31.' });
   }
 
   ngAfterViewInit() {
