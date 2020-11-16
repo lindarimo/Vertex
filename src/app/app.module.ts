@@ -37,7 +37,7 @@ import { FormsModule } from '@angular/forms';
     ModalComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
