@@ -6,7 +6,7 @@ import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angula
   styleUrls: ['./where-page.component.scss']
 })
 export class WherePageComponent implements OnInit, AfterViewInit {
-  @ViewChild('mapContainer', { static: false }) gmap: ElementRef;
+  @ViewChild('mapContainer') gmap: ElementRef;
 
   map: google.maps.Map;
   lat = 45.551798;
