@@ -11,42 +11,35 @@ import { WorkWithUsComponent } from './pages/work-with-us/work-with-us.component
 
 const routes: Routes = [
   {
-    path: '',
-    component: HomepageComponent
+    path: '', redirectTo: 'home', pathMatch: 'full'
   },
   {
-    path: 'servizi',
-    component: ServiziCardsComponent
+    path: 'home', component: HomepageComponent, pathMatch: 'full'
   },
   {
-    path: 'palestra',
-    component: PalestraComponent
+    path: 'servizi', component: ServiziCardsComponent, pathMatch: 'full'
   },
   {
-    path: 'centromedico',
-    component: CentromedicoComponent
+    path: 'palestra', component: PalestraComponent, pathMatch: 'full'
   },
   {
-    path: 'team-cards',
-    component: TeamCardsComponent
+    path: 'centromedico', component: CentromedicoComponent, pathMatch: 'full'
   },
   {
-    path: 'team-page/:id/:area/:servizio/:isSpecFiltered',
-    runGuardsAndResolvers: 'always',
-    component: TeamPageComponent
+    path: 'team-cards', component: TeamCardsComponent, pathMatch: 'full'
   },
   {
-    path: 'where-page',
-    component: WherePageComponent
+    path: 'team-page/:id/:area/:servizio/:isSpecFiltered', runGuardsAndResolvers: 'always', component: TeamPageComponent, pathMatch: 'full'
   },
   {
-    path: 'work-with-us',
-    component: WorkWithUsComponent
+    path: 'where-page', component: WherePageComponent, pathMatch: 'full'
   },
-  /* {
-    path: '**',
-    component: PageNotFoundComponent
-  } */
+  {
+    path: 'work-with-us', component: WorkWithUsComponent, pathMatch: 'full'
+  },
+  {
+    path: '**', redirectTo: 'home'
+  }
 ];
 
 @NgModule({
