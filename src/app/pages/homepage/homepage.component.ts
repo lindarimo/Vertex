@@ -12,7 +12,7 @@ export class HomepageComponent implements OnInit, AfterViewInit {
 
   constructor(
     private vertexService: VertexService,
-    private modalService: ModalService,
+    // private modalService: ModalService,
   ) { }
 
   ngOnInit() {
@@ -21,19 +21,19 @@ export class HomepageComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    this.openModal('custom-modal-1');
+    // this.openModal('custom-modal-1');
   }
 
-  openModal(id: string) {
-    setTimeout(() => {
-      this.modalService.open(id);
-    }, 3000);
+  // openModal(id: string) {
+  //   setTimeout(() => {
+  //     this.modalService.open(id);
+  //   }, 3000);
 
-  }
+  // }
 
-  closeModal(id: string) {
-    this.modalService.close(id);
-  }
+  // closeModal(id: string) {
+  //   this.modalService.close(id);
+  // }
 
   loadSpecialisti() {
     this.vertexService.getSpecialisti().subscribe(data => {
