@@ -1,15 +1,14 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 import { VertexService } from 'src/app/services/vertex.service';
 import { Specialista } from 'src/app/models/model';
 import { ActivatedRoute, Router } from '@angular/router';
 import * as $ from 'jquery';
-
 @Component({
   selector: 'app-team-page',
   templateUrl: './team-page.component.html',
   styleUrls: ['./team-page.component.scss']
 })
-export class TeamPageComponent implements OnInit {
+export class TeamPageComponent implements OnInit, AfterViewInit {
   public specialistiList: Specialista[];
   public specPalestraList: Specialista[];
   public specCentroList: Specialista[];
@@ -70,6 +69,16 @@ export class TeamPageComponent implements OnInit {
           self.router.navigate(['/team-page', self.specPalestraList[0].id, 'palestra', 'Personal training', 'false']));
       }
     });
+  }
+
+  ngAfterViewInit() {
+    if (!this.isPalestraSelected) {
+      setTimeout(() => {
+        const elementNumber = parseInt(this.routerId) - 2;
+        const scrollTo = $('#' + elementNumber).position().left;
+        $('.team-list-img').animate({ scrollLeft: scrollTo }, 500);
+      }, 1000);
+    }
   }
 
   loadServizi() {

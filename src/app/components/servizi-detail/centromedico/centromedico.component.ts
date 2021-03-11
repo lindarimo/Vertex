@@ -28,7 +28,6 @@ export class CentromedicoComponent implements OnInit {
   loadServizi() {
     this.vertexService.getServiziCentro().subscribe(data => {
       this.serviziCentroList = data;
-      console.log(this.serviziCentroList);
     });
     this.vertexService.getSpecialisti().subscribe(data => {
       this.specialistiList = data.filter(x => x.area === 'centro medico');
@@ -37,6 +36,12 @@ export class CentromedicoComponent implements OnInit {
   onShowDetail(servizio: string) {
     if (servizio !== this.detailToShow) {
       switch (servizio) {
+        case 'Fisiatria': {
+          this.buttonText = 'I nostri fisiatri';
+          this.detailToShow = 'Fisiatria';
+          $('.background-imgholder').css('background-image', 'url("../../../../assets/images/fisiatra.jpg")');
+          break;
+        }
         case 'Fisioterapia': {
           this.buttonText = 'I nostri fisioterapisti';
           this.detailToShow = 'Fisioterapia';
@@ -65,6 +70,12 @@ export class CentromedicoComponent implements OnInit {
           this.buttonText = 'I nostri osteopati';
           this.detailToShow = 'Osteopatia';
           $('.background-imgholder').css('background-image', 'url("../../../../assets/images/osteopata.jpg")');
+          break;
+        }
+        case 'Otorinolaringoiatria': {
+          this.buttonText = 'I nostri otorinolaringoiatri';
+          this.detailToShow = 'Otorinolaringoiatria';
+          $('.background-imgholder').css('background-image', 'url("../../../../assets/images/otorinolaringoiatra.jpg")');
           break;
         }
         case 'Psicoterapia': {

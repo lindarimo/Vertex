@@ -2,7 +2,7 @@
 <app-navbar></app-navbar>
 
 
-<section  class="content-section appearance-transformation">
+<section class="content-section appearance-transformation">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-header text-center">
@@ -36,8 +36,8 @@
         <div class="team-list-img tab-pane active">
             <span *ngFor="let specialista of specPalestraList; index as i">
                 <a (click)="onShowDetail(specialista)">
-                    <img src="../../../assets/Specialisti/{{specialista.id}}.jpg" alt="Avatar"
-                        class="imgSpecialista" id="{{specialista?.id}}"
+                    <img src="../../../assets/Specialisti/{{specialista.id}}.jpg" alt="Avatar" class="imgSpecialista"
+                        id="{{specialista?.id}}"
                         [ngClass]="{'activeImg' : routerId === specialista?.id}">
                 </a>
             </span>
@@ -63,8 +63,8 @@
         <div class="team-list-img tab-pane active">
             <span *ngFor="let specialista of specCentroList; index as i">
                 <a (click)="onShowDetail(specialista)">
-                    <img src="../../../assets/Specialisti/{{specialista.id}}.jpg" alt="Avatar"
-                        class="imgSpecialista" id="{{specialista?.id}}"
+                    <img src="../../../assets/Specialisti/{{specialista.id}}.jpg" alt="Avatar" class="imgSpecialista"
+                        id="{{specialista?.id}}"
                         [ngClass]="{'activeImg' : routerId === specialista?.id}">
                 </a>
             </span>

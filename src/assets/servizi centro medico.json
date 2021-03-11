@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "servizio": "Fisiatria",
+        "dettaglio": [
+            "Diagnosi e valutazione",
+            "Individuazione del percorso terapeutico e riabilitativo"
+        ]
+    },
+    {
+        "id": 2,
         "servizio": "Fisioterapia",
         "dettaglio": [
             "FKT (fisiokinesiterapia)",
@@ -15,7 +23,7 @@
         ]
     },
 	{
-        "id": 2,
+        "id": 3,
         "servizio": "Massoterapia",
         "dettaglio": [
             "Massaggi Rilassanti",
@@ -26,7 +34,7 @@
         ]
     },
 	{
-        "id": 3,
+        "id": 4,
         "servizio": "Nutrizione",
         "dettaglio": [
 		    "Benessere",
@@ -36,7 +44,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "servizio": "Ortopedia",
         "dettaglio": [
             "Diagnosi e Valutazione",
@@ -45,7 +53,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "servizio": "Osteopatia",
         "dettaglio": [
 			"Osteopatia per la gravidanza ed il post partum",
@@ -57,7 +65,15 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
+        "servizio": "Otorinolaringoiatria",
+        "dettaglio": [
+			"Visita otorinolaringoiatrica",
+			"Esame audiometrico"
+        ]
+    },
+    {
+        "id": 8,
         "servizio": "Psicoterapia",
         "dettaglio": [
 			"Disturbi alimentari",
