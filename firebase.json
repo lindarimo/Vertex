@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "vertexarese",
     "public": "dist/Vertex",
     "ignore": [
       "firebase.json",
