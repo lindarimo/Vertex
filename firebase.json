@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/Vertex",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -10,17 +10,6 @@
       {
         "source": "**",
         "destination": "/index.html"
-      }
-    ],
-    "headers": [
-      {
-        "source": "**/*.@(jpg|jpeg|gif|png|js)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
       }
     ]
   }
