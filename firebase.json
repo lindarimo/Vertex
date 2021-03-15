@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/Vertex",
+    "public": "dist/Vertex/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
