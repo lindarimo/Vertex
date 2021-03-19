@@ -47,9 +47,12 @@
                 <h3>
                     {{selectedSpecialista?.nome}} {{selectedSpecialista?.cognome}}
                 </h3>
-                <h5 class="subtitle">
+                <h6 class="specializzazione">
                     {{selectedSpecialista?.specializzazione}}
-                </h5>
+                </h6>
+                <h6 class="ruolo">
+                    {{selectedSpecialista?.ruolo}}
+                </h6>
                 <hr>
                 <p class="cv" [innerHtml]="selectedSpecialista?.cv">
 
@@ -74,9 +77,12 @@
                 <h3>
                     {{selectedSpecialista?.nome}} {{selectedSpecialista?.cognome}}
                 </h3>
-                <h5 class="subtitle">
+                <h6 class="specializzazione">
                     {{selectedSpecialista?.specializzazione}}
-                </h5>
+                </h6>
+                <h6 class="ruolo">
+                    {{selectedSpecialista?.ruolo}}
+                </h6>
                 <hr>
                 <p class="cv" [innerHtml]="selectedSpecialista?.cv">
                 </p>
