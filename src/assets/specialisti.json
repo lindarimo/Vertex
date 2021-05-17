@@ -79,6 +79,17 @@
     {
         "id": "8",
         "area": "centro medico",
+        "visita": "Visita fisioterapica",
+        "servizio": "Fisioterapia",
+        "nome": "Eduardo",
+        "cognome": "Ferraro",
+        "specializzazione": "Fisioterapista",
+        "ruolo": "Collaboratore",
+        "cv": "Il Dr. <b>Ferraro Eduardo</b> lavora come fisioterapista presso l’IRCCS Istituto Ortopedico Galeazzi ed opera anche in libera professione. <p>Si laurea in Fisioterapia nel 2014 presso l’Università Statale di Milano con un eccellente tesi eseguita in collaborazione con l’Unità Spinale dell’Ospedale Niguarda Ca’ Granda. Nel 2018 consegue il Master di I Livello in Fisioterapia Sportiva presso L’Università degli Studi di Pisa.</p><p>Ha collaborato con diverse realtà sportive agonistiche. Attualmente sta portando a termine il Master di I livello in Riabilitazione dei disturbi muscolo-scheletrici presso l’Università degli Studi di Genova."
+    },
+    {
+        "id": "9",
+        "area": "centro medico",
         "visita": "Visita osteopatica",
         "servizio": "Osteopatia",
         "nome": "Gaia",
@@ -88,7 +99,7 @@
         "cv": "<p>La Dott.ssa <b>Fulginiti Gaia</b> consegue la laurea in Osteopatia presso l’Accademia Italiana di Medicina Osteopatica (AIMO), nel corso dell’ultimo anno si specializza nel trattamento pediatrico e lavora già presso lo studio di un osteopata e docente con pluriennale esperienza. Durante il percorso accademico effettua 2 anni di tirocinio ospedaliero chirurgico e ortopedico presso l’ospedale Bassini di Cinisello Balsamo e, a seguito di numerosi corsi di approfondimento in ambito cranio-sacrale, pediatrico, odontoiatrico, ostetrico e ginecologico (ospedale Mangiagalli), sempre sotto l’ala di grandi insegnanti, termina la sua formazione integrandola con il mondo del pilates (attraverso un corso tenuto da Anna Maria Cova).</p><p>Una preparazione dinamica in continua crescita nonostante i forti impegni lavorativi che la vedono schierata principalmente su due fronti: l’università, dove è docente e tutor osteopatico presso l’AIMO (Saronno), e la libera professione in studio, dal 2020 in Vertex.</p>"
     },
     {
-        "id": "9",
+        "id": "10",
         "area": "centro medico",
         "visita": "Visita osteopatica",
         "servizio": "Osteopatia",
@@ -99,7 +110,7 @@
         "cv": "<p>La Dott.ssa <b>Casara Camilla</b> si è formata professionalmente presso l’Accademia Italiana di Medicina Osteopatica (AIMO), grazie alla collaborazione con University College of Osteopathy (UCO) ha conseguito il Master in Osteopathic Medicine (MOst Med).</p><p>Nel corso degli anni accademici ha effettuato tirocinio pratico presso il Centro di Formazione e Tirocinio Osteopatico (CFTO) e il centro riabilitativo Azimut; inoltre nel corso del suo ultimo anno accademico ha collaborato con un docente osteopata di pluriennale esperienza.</p><p>Si contraddistingue per un forte spirito di solidarietà e collaborazione in team, sviluppato nella carriera agonistica di Pallamano presso la società “pallamano femminile A.S.D”. Grazie all’esperienza acquisita nel campo educativo tramite la cooperativa “sport+” sviluppa un rapporto speciale e professionale con bambini e adolescenti.</p><p>Un animo determinato a migliorare e a crescere professionalmente che è sempre stato ispirato dall’arte di prendersi cura di sé e degli altri facendo di questa professione la propria filosofia di vita.</p>"
     },
     {
-        "id": "10",
+        "id": "11",
         "area": "centro medico",
         "visita": "Visita osteopatica",
         "servizio": "Osteopatia",
@@ -110,7 +121,7 @@
         "cv": "<p>Il Dr. <b>Botto Francesco</b>, dopo essersi Laureato in Scienze Motorie e dello Sport, consegue un master in Interventi Assistiti con gli Animali; infine conclude gli studi in Osteopatia. Un percorso multidisciplinare completo lo rende oggi in grado di approcciare i pazienti con una visione olistica a 360°. Lavora da sempre come istruttore di sport individuali e di squadra: principalmente Nuoto e Basket.</p><p>Pratica la sua professione cardine, quella di Osteopata, non solo alla Vertex ma anche nel suo studio privato a Milano.</p>"
     },
     {
-        "id": "11",
+        "id": "12",
         "area": "centro medico",
         "visita": "Visica psicoterapica",
         "servizio": "Psicoterapia",
@@ -121,7 +132,7 @@
         "cv": "La Dott.ssa <b>Monica Dellupi</b>, è psicologa e psicoterapeuta cognitivo comportamentale. Perfezionata in Consulenza dell’Orientamento Scolastico e Professionale ed Esperta in Processi Formativi Multimediali. <p>Ha esperienza pluriennale presso aziende multinazionali e società di consulenza nell’ambito della formazione comportamentale e della selezione del personale. Nel suo percorso professionale si è occupata della valutazione dello stress lavoro correlato e della formazione in ambito della psicologia applicata alla sicurezza sul lavoro.</p><p>Ha partecipato allo start up di una piattaforma che consente di erogare consulenze psicologiche on line, come esperta in materia per coordinamento editoriale.</p><p>L’interesse e l’intervento in ambito clinico sono rivolti principalmente ai disturbi d’ansia e del comportamento alimentare. Da anni pratica la libera professione, da poco giunta negli studi Vertex.</p>"
     },
     {
-        "id": "12",
+        "id": "13",
         "area": "centro medico",
         "visita": "Visita nutrizionale",
         "servizio": "Nutrizione",
@@ -132,7 +143,7 @@
         "cv": "La Dott.ssa <b>Stefania Tancini</b>, laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. <p>Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano.</p><p>Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici.</p><p>La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
     },
         {
-        "id": "13",
+        "id": "14",
         "area": "centro medico",
         "visita": "",
         "servizio": "",
@@ -143,7 +154,7 @@
         "cv": "<p>Il Dr. <b>Cristian Cucchi</b> esercita la professione di tecnico ortopedico dal 1999. Nella sua ventennale esperienza ha collaborato con diverse realtà ortopediche dove, nel tempo, ha acquisito ed affinato varie tecniche di costruzione. Per sua predisposizione sempre a stretto contatto con le esigenze del paziente, il suo compito principale è quello di rilevare misure ed impronte (anche su calco gessato) per il confezionamento di ortesi plantari e/o calzature su misura.</p><p>Fondamentale è la soddisfazione del cliente e determinante la collaborazione con i medici ed i professionisti sanitari che compongono lo staff Vertex.</p>"
     },
     {
-        "id": "14",
+        "id": "15",
         "area": "centro medico",
         "visita": "Visita massoterapica",
         "servizio": "Massoterapia",
