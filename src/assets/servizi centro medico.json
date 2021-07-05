@@ -38,8 +38,10 @@
         "servizio": "Nutrizione",
         "dettaglio": [
 		    "Benessere",
+            "Bioimpedenziometria",
             "Dimagrimento",
             "Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)",
+            "Nutrizione sportiva",
             "Problematiche Gastro-Intestinali"
         ]
     },
