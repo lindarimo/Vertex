@@ -68,17 +68,6 @@
     {
         "id": "7",
         "area": "centro medico",
-        "visita": "Visita fisioterapica",
-        "servizio": "Fisioterapia",
-        "nome": "Daniela",
-        "cognome": "Cardella",
-        "specializzazione": "Fisioterapista",
-        "ruolo": "Collaboratrice",
-        "cv": "<p>La Dott.ssa <b>Cardella Daniela</b>, dopo essersi laureata a pieni voti in fisioterapia presso l’Università degli studi di Milano nel 2011 , si specializza in terapia manuale secondo il concetto Maitlan (I e II livello) con particolare attenzione alle problematiche e disfunzioni della colonna vertebrale. Completa la propria formazione partecipando a numerosi corsi di formazione. Ha svolto la professione per diversi anni a Milano presso importanti e rinomati centri riabilitativi accreditati con i SSN e presso studi privati. Tra le tante competenze acquisite spiccano: riabilitazione del pavimento pelvico, riabilitazione ortopedica e neuorologica, terapie fisiche strumentali, rieducazione posturale.</p>"
-    },
-    {
-        "id": "8",
-        "area": "centro medico",
         "visita": "Visita osteopatica",
         "servizio": "Osteopatia",
         "nome": "Gaia",
@@ -88,7 +77,7 @@
         "cv": "<p>La Dott.ssa <b>Fulginiti Gaia</b> consegue la laurea in Osteopatia presso l’Accademia Italiana di Medicina Osteopatica (AIMO), nel corso dell’ultimo anno si specializza nel trattamento pediatrico e lavora già presso lo studio di un osteopata e docente con pluriennale esperienza. Durante il percorso accademico effettua 2 anni di tirocinio ospedaliero chirurgico e ortopedico presso l’ospedale Bassini di Cinisello Balsamo e, a seguito di numerosi corsi di approfondimento in ambito cranio-sacrale, pediatrico, odontoiatrico, ostetrico e ginecologico (ospedale Mangiagalli), sempre sotto l’ala di grandi insegnanti, termina la sua formazione integrandola con il mondo del pilates (attraverso un corso tenuto da Anna Maria Cova).</p><p>Una preparazione dinamica in continua crescita nonostante i forti impegni lavorativi che la vedono schierata principalmente su due fronti: l’università, dove è docente e tutor osteopatico presso l’AIMO (Saronno), e la libera professione in studio, dal 2020 in Vertex.</p>"
     },
     {
-        "id": "9",
+        "id": "8",
         "area": "centro medico",
         "visita": "Visita osteopatica",
         "servizio": "Osteopatia",
@@ -101,17 +90,6 @@
     {
         "id": "10",
         "area": "centro medico",
-        "visita": "Visita osteopatica",
-        "servizio": "Osteopatia",
-        "nome": "Camilla",
-        "cognome": "Casara",
-        "specializzazione": "Osteopata",
-        "ruolo": "Collaboratrice",
-        "cv": "<p>La Dott.ssa <b>Casara Camilla</b> si è formata professionalmente presso l’Accademia Italiana di Medicina Osteopatica (AIMO), grazie alla collaborazione con University College of Osteopathy (UCO) ha conseguito il Master in Osteopathic Medicine (MOst Med).</p><p>Nel corso degli anni accademici ha effettuato tirocinio pratico presso il Centro di Formazione e Tirocinio Osteopatico (CFTO) e il centro riabilitativo Azimut; inoltre nel corso del suo ultimo anno accademico ha collaborato con un docente osteopata di pluriennale esperienza.</p><p>Si contraddistingue per un forte spirito di solidarietà e collaborazione in team, sviluppato nella carriera agonistica di Pallamano presso la società “pallamano femminile A.S.D”. Grazie all’esperienza acquisita nel campo educativo tramite la cooperativa “sport+” sviluppa un rapporto speciale e professionale con bambini e adolescenti.</p><p>Un animo determinato a migliorare e a crescere professionalmente che è sempre stato ispirato dall’arte di prendersi cura di sé e degli altri facendo di questa professione la propria filosofia di vita.</p>"
-    },
-    {
-        "id": "11",
-        "area": "centro medico",
         "visita": "Visica nutrizionale",
         "servizio": "Nutrizione",
         "nome": "Emanuele",
@@ -121,7 +99,7 @@
         "cv": "<p>Il Dr. <b>Emanuele Galbiati</b>si è laureato in Dietistica, Facoltà di Medicina e Chirurgia, Università degli studi di Milano.</p><p>Nel corso degli anni studia e si specializza nella gestione del paziente sportivo frequentando corsi tra i quali spiccano la Scuola di Nutrizione e Integrazione nello Sport (European Sport Nutrition Society) e Barça Innovation Hub nello specifico per l’alimentazione nel calcio.<br>Attualmente esercita la professione di Dietista collaborando presso studi e palestre dell'hinterland milanese, promuovendo ai pazienti uno stile di vita attivo e uno stile alimentare flessibile in linea con i loro obbiettivi.</p>"
     },
     {
-        "id": "12",
+        "id": "11",
         "area": "centro medico",
         "visita": "Visita nutrizionale",
         "servizio": "Nutrizione",
@@ -130,6 +108,17 @@
         "specializzazione": "Nutrizionista e Biologa",
         "ruolo": "Collaboratrice",
         "cv": "La Dott.ssa <b>Stefania Tancini</b>, laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. <p>Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano.</p><p>Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici.</p><p>La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
+    },
+    {
+        "id": "12",
+        "area": "centro medico",
+        "visita": "Visica psicoterapica",
+        "servizio": "Psicoterapia",
+        "nome": "Beatrice",
+        "cognome": "Taveggia",
+        "specializzazione": "Psicologa",
+        "ruolo": "Collaboratrice",
+        "cv": "La Dott.ssa <b>Beatrice Taveggia</b>, è psicologa specializzata nell’approccio cognitivo-neuropsicologico, un modello di diagnosi e di cura scientificamente fondato e costantemente al passo con la ricerca. <br><br>Propone un approccio del tutto individualizzato e personalizzato, cucito sulla base delle specifiche esigenze della persona.<br><br>Se stai vivendo un momento di difficoltà personale, di coppia, familiare o lavorativa, ti sarà offerto uno spazio riservato dove accoglierà e comprenderete insieme le tue difficoltà dando loro il giusto significato e, individuando le strategie più adeguate per te.</p>"
     },
     {
         "id": "13",
