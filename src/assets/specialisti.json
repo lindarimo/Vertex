@@ -35,28 +35,6 @@
     {
         "id": "4",
         "area": "centro medico",
-        "visita": "Visita ortopedica",
-        "servizio": "Ortopedia",
-        "nome": "Marco",
-        "cognome": "Galli",
-        "specializzazione": "Ortopedico",
-        "ruolo": "Collaboratore",
-        "cv": "Il Dr. <b>Marco Cesare Galli</b> è ortopedico traumatologo presso il Centro di Traumatologia dello Sport e Chirurgia Artroscopica (C.T.S.) dell’IRCCS Istituto Ortopedico Galeazzi e presso la Casa di Cura la Madonnina. <p>Si laurea in Medicina e Chirurgia all’Università degli Studi di Milano nel 1995, dove consegue anche la specializzazione in Ortopedia e Traumatologia.</p><p> Nel 2011 frequenta e consegue il Master universitario in Biomeccanica Patologia e Trattamento Terapeutico dell’Arto Superiore all’Università di Bologna polo di Rimini. </p><p>Al termine degli studi, il dr.Galli intraprende, in Italia e all’estero, un lungo percorso formativo sulla chirurgia del ginocchio e della spalla e sulla traumatologia sportiva. </p><p>L’attività clinica del dr.Galli è rivolta alla diagnosi, al trattamento conservativo e chirurgico delle patologie traumatiche e degenerative artrosiche di ginocchio, spalla e caviglia. </p><p>Si occupa inoltre delle traumatologia sportiva dei distretti articolari di ginocchio, spalla e caviglia e delle patologie muscolo-tendinee acute e da overuse.</p><p><a href='https://www.dottorgalli.com/' target='blank' class='link'>dottorgalli.com</a></p>"
-    },
-    {
-        "id": "5",
-        "area": "centro medico",
-        "visita": "Visita ortopedica",
-        "servizio": "Ortopedia",
-        "nome": "Carlo",
-        "cognome": "Perfetti",
-        "specializzazione": "Ortopedico",
-        "ruolo": "Collaboratore",
-        "cv": "<p>Il Dott. <b>Carlo Perfetti</b> è Medico Chirurgo specialista in Ortopedia e Trautomatologia, in particolar modo degli arti e della Spalla, opera c/o l’Ospedale  I.R.C.C.S. Istituto Ortopedico Galeazzi di Milano, Unità operativa della chirurgia della spalla.</p><p>Si laurea in Medicina e Chirurgia all’Università degli Studi di Milano nel 1996, dove consegue anche la specializzazione in Ortopedia e Traumatologia.</p>"
-    },
-    {
-        "id": "6",
-        "area": "centro medico",
         "visita": "Visita fisioterapica",
         "servizio": "Fisioterapia",
         "nome": "Lorenzo",
@@ -66,18 +44,7 @@
         "cv": "<p>Il Dr. <b>Lorenzo Bianca</b>, laureato presso l'Università Statale di Milano, lavora come fisioterapista presso l'IRCCS Santa Maria Nascente della Fondazione Don Gnocchi Onlus.</p><p>Attualmente sta portando a conclusione il Corso di Osteopatia per Fisioterapisti dell'istituto Superiore di Osteopatia di Milano.</p><p>In passato ha conseguito il diploma di massaggio base e sportivo riconosciuto da CONI e Regione Lombardia."
     },
     {
-        "id": "7",
-        "area": "centro medico",
-        "visita": "Visita osteopatica",
-        "servizio": "Osteopatia",
-        "nome": "Gaia",
-        "cognome": "Fulginiti",
-        "specializzazione": "Osteopata",
-        "ruolo": "Collaboratrice",
-        "cv": "<p>La Dott.ssa <b>Fulginiti Gaia</b> consegue la laurea in Osteopatia presso l’Accademia Italiana di Medicina Osteopatica (AIMO), nel corso dell’ultimo anno si specializza nel trattamento pediatrico e lavora già presso lo studio di un osteopata e docente con pluriennale esperienza. Durante il percorso accademico effettua 2 anni di tirocinio ospedaliero chirurgico e ortopedico presso l’ospedale Bassini di Cinisello Balsamo e, a seguito di numerosi corsi di approfondimento in ambito cranio-sacrale, pediatrico, odontoiatrico, ostetrico e ginecologico (ospedale Mangiagalli), sempre sotto l’ala di grandi insegnanti, termina la sua formazione integrandola con il mondo del pilates (attraverso un corso tenuto da Anna Maria Cova).</p><p>Una preparazione dinamica in continua crescita nonostante i forti impegni lavorativi che la vedono schierata principalmente su due fronti: l’università, dove è docente e tutor osteopatico presso l’AIMO (Saronno), e la libera professione in studio, dal 2020 in Vertex.</p>"
-    },
-    {
-        "id": "8",
+        "id": "5",
         "area": "centro medico",
         "visita": "Visita osteopatica",
         "servizio": "Osteopatia",
@@ -88,7 +55,7 @@
         "cv": "<p>Il Dr. <b>Di Stefano Francesco Maria</b> consegue la laurea in Osteopatia presso l’Accademia Italiana di Medicina Osteopatica (AIMO). Nel corso dell’ultimo anno consegue, oltre al riconoscimento come miglior studente dell’anno, anche il Bachelor of Science in Osteopathy presso University College of Osteopathy a Londra.</p><p>Nel corso degli anni si specializza nelle problematiche del paziente sportivo, avvalendosi anche della kinesio-terapia, e nei disturbi del sistema masticatorio correlato a disturbi della postura e patologie muscolo-scheletriche. Ad oggi collabora come Osteopata presso Vertex ed altri centri polispecialistici a Milano. Oltre alla professione da Osteopata, lavora in ambito universitario come docente presso AIMO (Saronno).</p><p>Unita alla passione per lo sport, attualmente riveste la figura di Osteopata e figura medica di riferimento presso la prima squadra di A.C. Pavia 1911.</p>"
     },
     {
-        "id": "10",
+        "id": "6",
         "area": "centro medico",
         "visita": "Visica nutrizionale",
         "servizio": "Nutrizione",
@@ -99,18 +66,7 @@
         "cv": "<p>Il Dr. <b>Emanuele Galbiati</b>si è laureato in Dietistica, Facoltà di Medicina e Chirurgia, Università degli studi di Milano.</p><p>Nel corso degli anni studia e si specializza nella gestione del paziente sportivo frequentando corsi tra i quali spiccano la Scuola di Nutrizione e Integrazione nello Sport (European Sport Nutrition Society) e Barça Innovation Hub nello specifico per l’alimentazione nel calcio.<br>Attualmente esercita la professione di Dietista collaborando presso studi e palestre dell'hinterland milanese, promuovendo ai pazienti uno stile di vita attivo e uno stile alimentare flessibile in linea con i loro obbiettivi.</p>"
     },
     {
-        "id": "11",
-        "area": "centro medico",
-        "visita": "Visita nutrizionale",
-        "servizio": "Nutrizione",
-        "nome": "Stefania",
-        "cognome": "Tancini",
-        "specializzazione": "Nutrizionista e Biologa",
-        "ruolo": "Collaboratrice",
-        "cv": "La Dott.ssa <b>Stefania Tancini</b>, laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. <p>Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano.</p><p>Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici.</p><p>La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
-    },
-    {
-        "id": "12",
+        "id": "7",
         "area": "centro medico",
         "visita": "Visica psicoterapica",
         "servizio": "Psicoterapia",
@@ -119,38 +75,5 @@
         "specializzazione": "Psicologa",
         "ruolo": "Collaboratrice",
         "cv": "La Dott.ssa <b>Beatrice Taveggia</b>, è psicologa specializzata nell’approccio cognitivo-neuropsicologico, un modello di diagnosi e di cura scientificamente fondato e costantemente al passo con la ricerca. <br><br>Propone un approccio del tutto individualizzato e personalizzato, cucito sulla base delle specifiche esigenze della persona.<br><br>Se stai vivendo un momento di difficoltà personale, di coppia, familiare o lavorativa, ti sarà offerto uno spazio riservato dove accoglierà e comprenderete insieme le tue difficoltà dando loro il giusto significato e, individuando le strategie più adeguate per te.</p>"
-    },
-    {
-        "id": "13",
-        "area": "centro medico",
-        "visita": "Visica psicoterapica",
-        "servizio": "Psicoterapia",
-        "nome": "Monica",
-        "cognome": "Dellupi",
-        "specializzazione": "Psicologa e psicoterapeuta",
-        "ruolo": "Collaboratrice",
-        "cv": "La Dott.ssa <b>Monica Dellupi</b>, è psicologa e psicoterapeuta cognitivo comportamentale. Perfezionata in Consulenza dell’Orientamento Scolastico e Professionale ed Esperta in Processi Formativi Multimediali. <p>Ha esperienza pluriennale presso aziende multinazionali e società di consulenza nell’ambito della formazione comportamentale e della selezione del personale. Nel suo percorso professionale si è occupata della valutazione dello stress lavoro correlato e della formazione in ambito della psicologia applicata alla sicurezza sul lavoro.</p><p>Ha partecipato allo start up di una piattaforma che consente di erogare consulenze psicologiche on line, come esperta in materia per coordinamento editoriale.</p><p>L’interesse e l’intervento in ambito clinico sono rivolti principalmente ai disturbi d’ansia e del comportamento alimentare. Da anni pratica la libera professione, da poco giunta negli studi Vertex.</p>"
-    },
-    {
-        "id": "14",
-        "area": "centro medico",
-        "visita": "Visita massoterapica",
-        "servizio": "Massoterapia",
-        "nome": "Andrea",
-        "cognome": "De Serio",
-        "specializzazione": "Massoterapista",
-        "ruolo": "Collaboratore",
-        "cv": "<p>Il Dr. <b>De Serio Andrea</b> si laurea all’università cattolica di Milano nel 2012 in Scienze Motorie e dello Sport, successivamente consegue il diploma in MCB. Nel 2014 frequenta il Master di idrokinesiterapia, rieducazione funzionale in acqua presso lo Studio Cresseri a Brescia. Impara e approfondisce le tecniche rieducative in acqua, grazie ad un tirocinio di 2 anni. La collaborazione con Sg Sport gli permette di sviluppare l’idrokinesiterapia ad Arese. Nel 2015 consegue il master in Riabilitazione e Rieducazione funzionale dello sportivo, presso Ediermes a Milano.</p><p>I continui corsi di aggiornamento sulla riabilitazione della spalla e la collaborazione con il Dott. Carlo Perfetti, lo aiutano a migliorare le tecniche riabilitative della spalla. Infine la collaborazione con Vertex, sempre su campo aresino, dove trova terreno fertile un concetto di lavoro che va oltre l’acqua, accompagnando i pazienti in un percorso di riabilitazione completa.</p>"
-    },
-    {
-        "id": "15",
-        "area": "centro medico",
-        "visita": "",
-        "servizio": "",
-        "nome": "Cristian",
-        "cognome": "Cucchi",
-        "specializzazione": "Tecnico ortopedico",
-        "ruolo": "Collaboratore",
-        "cv": "<p>Il Dr. <b>Cristian Cucchi</b> esercita la professione di tecnico ortopedico dal 1999. Nella sua ventennale esperienza ha collaborato con diverse realtà ortopediche dove, nel tempo, ha acquisito ed affinato varie tecniche di costruzione. Per sua predisposizione sempre a stretto contatto con le esigenze del paziente, il suo compito principale è quello di rilevare misure ed impronte (anche su calco gessato) per il confezionamento di ortesi plantari e/o calzature su misura.</p><p>Fondamentale è la soddisfazione del cliente e determinante la collaborazione con i medici ed i professionisti sanitari che compongono lo staff Vertex.</p>"
     }
 ]
