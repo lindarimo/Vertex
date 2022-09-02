@@ -23,6 +23,17 @@
         ]
     },
 	{
+        "id": 3,
+        "servizio": "Massoterapia",
+        "dettaglio": [
+            "Massaggi Rilassanti",
+            "Massaggi Decontratturanti",
+            "Massaggi Sportivi",
+            "Tecarterapia",
+            "Trattamenti per cervicalgie, lombalgie ed altre patologie"
+        ]
+    },
+	{
         "id": 4,
         "servizio": "Nutrizione",
         "dettaglio": [
@@ -35,6 +46,15 @@
         ]
     },
     {
+        "id": 5,
+        "servizio": "Ortopedia",
+        "dettaglio": [
+            "Diagnosi e Valutazione",
+            "Infiltrazioni",
+            "Monitoraggio percorso riabilitativo per sportivi e non"
+        ]
+    },
+    {
         "id": 6,
         "servizio": "Osteopatia",
         "dettaglio": [
@@ -44,6 +64,14 @@
             "Osteopatia per lo sportivo",   
             "Osteopatia per la risoluzione di problematiche acute",   
             "Osteopatia per l'anziano"
+        ]
+    },
+    {
+        "id": 7,
+        "servizio": "Otorinolaringoiatria",
+        "dettaglio": [
+			"Visita otorinolaringoiatrica",
+			"Esame audiometrico"
         ]
     },
     {

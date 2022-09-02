@@ -48,36 +48,36 @@ export class CentromedicoComponent implements OnInit {
           $('.background-imgholder').css('background-image', 'url("../../../../assets/images/fisioterapista.jpg")');
           break;
         }
-        case 'Massoterapia': {
-          this.buttonText = 'I nostri massoterapisti';
-          this.detailToShow = 'Massoterapia';
-          $('.background-imgholder').css('background-image', 'url("../../../../assets/images/massoterapista.jpg")');
-          break;
-        }
+        // case 'Massoterapia': {
+        //   this.buttonText = 'I nostri massoterapisti';
+        //   this.detailToShow = 'Massoterapia';
+        //   $('.background-imgholder').css('background-image', 'url("../../../../assets/images/massoterapista.jpg")');
+        //   break;
+        // }
         case 'Nutrizione': {
           this.buttonText = 'I nostri nutrizionisti';
           this.detailToShow = 'Nutrizione';
           $('.background-imgholder').css('background-image', 'url("../../../../assets/images/nutrizionista.jpg")');
           break;
         }
-        case 'Ortopedia': {
-          this.buttonText = 'I nostri ortopedici';
-          this.detailToShow = 'Ortopedia';
-          $('.background-imgholder').css('background-image', 'url("../../../../assets/images/ortopedico.jpg")');
-          break;
-        }
+        // case 'Ortopedia': {
+        //   this.buttonText = 'I nostri ortopedici';
+        //   this.detailToShow = 'Ortopedia';
+        //   $('.background-imgholder').css('background-image', 'url("../../../../assets/images/ortopedico.jpg")');
+        //   break;
+        // }
         case 'Osteopatia': {
           this.buttonText = 'I nostri osteopati';
           this.detailToShow = 'Osteopatia';
           $('.background-imgholder').css('background-image', 'url("../../../../assets/images/osteopata.jpg")');
           break;
         }
-        case 'Otorinolaringoiatria': {
-          this.buttonText = 'I nostri otorinolaringoiatri';
-          this.detailToShow = 'Otorinolaringoiatria';
-          $('.background-imgholder').css('background-image', 'url("../../../../assets/images/otorinolaringoiatra.jpg")');
-          break;
-        }
+        // case 'Otorinolaringoiatria': {
+        //   this.buttonText = 'I nostri otorinolaringoiatri';
+        //   this.detailToShow = 'Otorinolaringoiatria';
+        //   $('.background-imgholder').css('background-image', 'url("../../../../assets/images/otorinolaringoiatra.jpg")');
+        //   break;
+        // }
         case 'Psicoterapia': {
           this.buttonText = 'I nostri psicoterapisti';
           this.detailToShow = 'Psicoterapia';
