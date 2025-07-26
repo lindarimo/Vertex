@@ -178,6 +178,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Vertex"
 }

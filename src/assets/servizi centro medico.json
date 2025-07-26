@@ -1,58 +1,68 @@
 [
-    {
-        "id": 1,
-        "servizio": "Fisiatria",
-        "dettaglio": [
-            "Diagnosi e valutazione",
-            "Individuazione del percorso terapeutico e riabilitativo"
-        ]
-    },
-    {
-        "id": 2,
-        "servizio": "Fisioterapia",
-        "dettaglio": [
-            "FKT (fisiokinesiterapia)",
-            "Fisioterapia Domiciliare",
-            "Ginnastica riabilitativa e posturale",
-			"Linfodrenaggio manuale",
-            "Riabilitazione fisica e motoria",
-			"Taping elastico",
-            "Tecarterapia",
-            "Tens",
-            "Trattamenti e manipolazioni manuali profonde"
-        ]
-    },
-	{
-        "id": 4,
-        "servizio": "Nutrizione",
-        "dettaglio": [
-		    "Benessere",
-            "Bioimpedenziometria",
-            "Dimagrimento",
-            "Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)",
-            "Nutrizione sportiva",
-            "Problematiche Gastro-Intestinali"
-        ]
-    },
-    {
-        "id": 6,
-        "servizio": "Osteopatia",
-        "dettaglio": [
-			"Osteopatia per la gravidanza ed il post partum",
-			"Osteopatia pediatrica",
-            "Osteopatia preventiva",
-            "Osteopatia per lo sportivo",   
-            "Osteopatia per la risoluzione di problematiche acute",   
-            "Osteopatia per l'anziano"
-        ]
-    },
-    {
-        "id": 8,
-        "servizio": "Psicoterapia",
-        "dettaglio": [
-			"Disturbi alimentari",
-			"Gestione dello stress / ansia",
-            "Mental coaching"
-        ]
-    }
+  {
+    "id": 1,
+    "servizio": "Ortopedia",
+    "dettaglio": [
+      "Visita ortopedica",
+      "Traumatologia sportiva",
+      "Chirurgia ortopedica"
+    ]
+  },
+  {
+    "id": 2,
+    "servizio": "Fisioterapia",
+    "dettaglio": [
+      "FKT (fisiokinesiterapia)",
+      "Fisioterapia Domiciliare",
+      "Ginnastica riabilitativa e posturale",
+      "Linfodrenaggio manuale",
+      "Riabilitazione fisica e motoria",
+      "Taping elastico",
+      "Tecarterapia",
+      "Tens",
+      "Trattamenti e manipolazioni manuali profonde"
+    ]
+  },
+  {
+    "id": 4,
+    "servizio": "Nutrizione",
+    "dettaglio": [
+      "Benessere",
+      "Bioimpedenziometria",
+      "Dimagrimento",
+      "Gestione Patologie (colestreolo, diabete, malattie croniche, ecc..)",
+      "Nutrizione sportiva",
+      "Problematiche Gastro-Intestinali"
+    ]
+  },
+  {
+    "id": 6,
+    "servizio": "Osteopatia",
+    "dettaglio": [
+      "Osteopatia per la gravidanza ed il post partum",
+      "Osteopatia pediatrica",
+      "Osteopatia preventiva",
+      "Osteopatia per lo sportivo",
+      "Osteopatia per la risoluzione di problematiche acute",
+      "Osteopatia per l'anziano"
+    ]
+  },
+  {
+    "id": 7,
+    "servizio": "Cardiologia",
+    "dettaglio": [
+      "Visita cardiologica",
+      "Elettrocardiogramma",
+      "Test cardiovascolare da sforzo"
+    ]
+  },
+  {
+    "id": 8,
+    "servizio": "Psicoterapia",
+    "dettaglio": [
+      "Consulenza psicologica",
+      "Consulenza online",
+      "Colloquio psicologico clinico"
+    ]
+  }
 ]
