@@ -6,9 +6,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss']
 })
-@NgModule({
-  imports: [NgbModule],
-})
+
 export class CarouselComponent implements OnInit {
 
   constructor() { }
