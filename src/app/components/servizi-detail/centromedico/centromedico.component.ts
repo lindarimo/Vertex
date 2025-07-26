@@ -73,7 +73,7 @@ export class CentromedicoComponent implements OnInit {
         //   break;
         // }
         case 'Psicoterapia': {
-          this.buttonText = 'I nostri psicoterapisti';
+          this.buttonText = 'I nostri psicoterapeuti';
           this.detailToShow = 'Psicoterapia';
           $('.background-imgholder').css('background-image', 'url("../../../../assets/images/psicoterapeuta.jpg")');
           break;
