@@ -51,9 +51,11 @@
     "id": 7,
     "servizio": "Cardiologia",
     "dettaglio": [
-      "Visita cardiologica",
-      "Elettrocardiogramma",
-      "Test cardiovascolare da sforzo"
+      "Visita cardiologica e ECG",
+      "Test cardiovascolare da sforzo",
+      "Ecocolordoppler cardiaco e dei TSA",
+      "ECG dinamico se. HOLTER",
+      "Monitoraggio pressorio delle 24h"
     ]
   },
   {

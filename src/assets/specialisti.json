@@ -32,8 +32,19 @@
     "ruolo": "Collaboratore",
     "cv": "<p>Il Dr. <b>Ciminaghi Andrea</b> consegue la Laurea triennale in Scienze e motorie e sportive, continua il suo percorso accademico in Scienze della Nutrizione umana e successivamente ottiene il titolo di Biologo Nutrizionista abilitandosi alla professione. <br><br>Sostenendo che la corretta alimentazione e l’attività motoria costituiscano le fondamenta di un sano e corretto stile di vita, il Dott. Ciminaghi si occupa di seguire il paziente o l’atleta in un percorso nutrizionale personalizzato, portandolo alla scoperta del proprio massimo potenziale.</p>"
   },
-  {
+    {
     "id": "4",
+    "area": "palestra",
+    "visita": "Personal training",
+    "servizio": "Personal training",
+    "nome": "Daniele",
+    "cognome": "Gottardi",
+    "specializzazione": "Personal trainer",
+    "ruolo": "Collaboratore",
+    "cv": "<p><b>Gottardi Daniele</b> ha intrapreso un percorso formativo completo, iniziando con i brevetti CONI dedicati alla gestione e organizzazione sportiva. Successivamente ha conseguito la certificazione ISSA Europe come Personal Trainer e, nel corso degli anni, ha ampliato le sue competenze con specializzazioni in Functional Training, Body Composition, Fitness Nutrition, Youth Fitness e Fitness Management.<br><br>Attivo nel mondo del fitness da oltre 30 anni, con il suo approccio, personalizzato e orientato al risultato, si fonda su esperienza, metodo e ascolto. Accompagna ogni cliente in un percorso sostenibile con l’obiettivo di migliorare performance e composizione corporea, ponendo al centro la salute e il benessere psicofisico. Valorizza le potenzialità di ogni persona, aiutandola a raggiungere i propri obiettivi in modo efficace e sicuro.</p>"
+  },
+  {
+    "id": "5",
     "area": "centro medico",
     "visita": "Visita ortopedica",
     "servizio": "Ortopedia",
@@ -44,7 +55,7 @@
     "cv": "Il Dr. <b>Marco Cesare Galli</b> è ortopedico traumatologo presso il Centro di Traumatologia dello Sport e Chirurgia Artroscopica (C.T.S.) dell’IRCCS Istituto Ortopedico Galeazzi e presso la Casa di Cura la Madonnina. <p>Si laurea in Medicina e Chirurgia all’Università degli Studi di Milano nel 1995, dove consegue anche la specializzazione in Ortopedia e Traumatologia.</p><p> Nel 2011 frequenta e consegue il Master universitario in Biomeccanica Patologia e Trattamento Terapeutico dell’Arto Superiore all’Università di Bologna polo di Rimini. </p><p>Al termine degli studi, il dr.Galli intraprende, in Italia e all’estero, un lungo percorso formativo sulla chirurgia del ginocchio e della spalla e sulla traumatologia sportiva. </p><p>L’attività clinica del dr.Galli è rivolta alla diagnosi, al trattamento conservativo e chirurgico delle patologie traumatiche e degenerative artrosiche di ginocchio, spalla e caviglia. </p><p>Si occupa inoltre delle traumatologia sportiva dei distretti articolari di ginocchio, spalla e caviglia e delle patologie muscolo-tendinee acute e da overuse.</p><p><a href='https://www.dottorgalli.com/' target='blank' class='link'>dottorgalli.com</a></p>"
   },
   {
-    "id": "5",
+    "id": "6",
     "area": "centro medico",
     "visita": "Visita ortopedica",
     "servizio": "Ortopedia",
@@ -55,7 +66,7 @@
     "cv": "<p>Il Dott. <b>Carlo Perfetti</b> è Medico Chirurgo specialista in Ortopedia e Trautomatologia, in particolar modo degli arti e della Spalla, opera c/o l’Ospedale  I.R.C.C.S. Istituto Ortopedico Galeazzi di Milano, Unità operativa della chirurgia della spalla.</p><p>Si laurea in Medicina e Chirurgia all’Università degli Studi di Milano nel 1996, dove consegue anche la specializzazione in Ortopedia e Traumatologia.</p><p><a href='https://carloperfetti.it/' target='blank' class='link'>carloperfetti.it</a></p>"
   },
   {
-    "id": "6",
+    "id": "7",
     "area": "centro medico",
     "visita": "Visita osteopatica",
     "servizio": "Osteopatia",
@@ -66,7 +77,7 @@
     "cv": "<p>La Dott.ssa <b>Fulginiti Gaia</b> consegue la laurea in Osteopatia presso l’Accademia Italiana di Medicina Osteopatica (AIMO), nel corso dell’ultimo anno si specializza nel trattamento pediatrico e lavora già presso lo studio di un osteopata e docente con pluriennale esperienza. Durante il percorso accademico effettua 2 anni di tirocinio ospedaliero chirurgico e ortopedico presso l’ospedale Bassini di Cinisello Balsamo e, a seguito di numerosi corsi di approfondimento in ambito cranio-sacrale, pediatrico, odontoiatrico, ostetrico e ginecologico (ospedale Mangiagalli), sempre sotto l’ala di grandi insegnanti, termina la sua formazione integrandola con il mondo del pilates (attraverso un corso tenuto da Anna Maria Cova).</p><p>Una preparazione dinamica in continua crescita nonostante i forti impegni lavorativi che la vedono schierata principalmente su due fronti: l’università, dove è docente e tutor osteopatico presso l’AIMO (Saronno), e la libera professione in studio, dal 2020 in Vertex.</p>"
   },
   {
-    "id": "7",
+    "id": "8",
     "area": "centro medico",
     "visita": "Visita fisioterapica",
     "servizio": "Fisioterapia",
@@ -74,10 +85,10 @@
     "cognome": "Bianca",
     "specializzazione": "Fisioterapista",
     "ruolo": "Collaboratore",
-    "cv": "<p>Il Dr. <b>Lorenzo Bianca</b>, laureato presso l'Università Statale di Milano, lavora come fisioterapista presso l'IRCCS Santa Maria Nascente della Fondazione Don Gnocchi Onlus.</p><p>Attualmente sta portando a conclusione il Corso di Osteopatia per Fisioterapisti dell'istituto Superiore di Osteopatia di Milano.</p><p>In passato ha conseguito il diploma di massaggio base e sportivo riconosciuto da CONI e Regione Lombardia."
+    "cv": "<p>Il Dr. <b>Lorenzo Bianca</b>, è un professionista sanitario altamente qualificato, con una solida formazione accademica e una pluriennale esperienza nel campo della riabilitazione e del benessere muscolo-scheletrico.<br><br>Dopo aver conseguito la laurea in Fisioterapia presso l’Università degli Studi di Milano, ha proseguito il proprio percorso formativo specializzandosi in Osteopatia, ottenendo il diploma in Osteopatia (DO) al termine di un percorso quinquennale presso l’Istituto Superiore di Osteopatia di Milano, istituto riconosciuto a livello europeo.<br><br>In precedenza ha acquisito il diploma di massaggio base e sportivo, riconosciuto dal CONI e dalla Regione Lombardia, che gli ha fornito una solida base pratica e manuale, utile sin dai primi anni della sua carriera.<br><br>Attualmente esercita la professione di fisioterapista e osteopata presso un rinomato poliambulatorio di Milano, dove si occupa del trattamento di pazienti con problematiche ortopediche, posturali, sportive e neurologiche. Il suo approccio integrato e personalizzato punta al recupero funzionale completo e al miglioramento della qualità di vita dei suoi pazienti."
   },
   {
-    "id": "8",
+    "id": "9",
     "area": "centro medico",
     "visita": "Visita nutrizionale",
     "servizio": "Nutrizione",
@@ -88,7 +99,7 @@
     "cv": "<p>Il Dr. <b>Ciminaghi Andrea</b> consegue la Laurea triennale in Scienze e motorie e sportive, continua il suo percorso accademico in Scienze della Nutrizione umana e successivamente ottiene il titolo di Biologo Nutrizionista abilitandosi alla professione. <br><br>Sostenendo che la corretta alimentazione e l’attività motoria costituiscano le fondamenta di un sano e corretto stile di vita, il Dott. Ciminaghi si occupa di seguire il paziente o l’atleta in un percorso nutrizionale personalizzato, portandolo alla scoperta del proprio massimo potenziale.</p>"
   },
   {
-    "id": "9",
+    "id": "10",
     "area": "centro medico",
     "visita": "Visica nutrizionale",
     "servizio": "Nutrizione",
@@ -99,7 +110,7 @@
     "cv": "<p>Il Dr. <b>Emanuele Galbiati</b>si è laureato in Dietistica, Facoltà di Medicina e Chirurgia, Università degli studi di Milano.</p><p>Nel corso degli anni studia e si specializza nella gestione del paziente sportivo frequentando corsi tra i quali spiccano la Scuola di Nutrizione e Integrazione nello Sport (European Sport Nutrition Society) e Barça Innovation Hub nello specifico per l’alimentazione nel calcio.<br>Attualmente esercita la professione di Dietista collaborando presso studi e palestre dell'hinterland milanese, promuovendo ai pazienti uno stile di vita attivo e uno stile alimentare flessibile in linea con i loro obbiettivi.</p>"
   },
   {
-    "id": "10",
+    "id": "11",
     "area": "centro medico",
     "visita": "Visita osteopatica",
     "servizio": "Osteopatia",
@@ -110,7 +121,7 @@
     "cv": "<p>Il Dr. <b>Di Stefano Francesco Maria</b> consegue la laurea in Osteopatia presso l’Accademia Italiana di Medicina Osteopatica (AIMO). Nel corso dell’ultimo anno consegue, oltre al riconoscimento come miglior studente dell’anno, anche il Bachelor of Science in Osteopathy presso University College of Osteopathy a Londra.</p><p>Nel corso degli anni si specializza nelle problematiche del paziente sportivo, avvalendosi anche della kinesio-terapia, e nei disturbi del sistema masticatorio correlato a disturbi della postura e patologie muscolo-scheletriche. Ad oggi collabora come Osteopata presso Vertex ed altri centri polispecialistici a Milano. Oltre alla professione da Osteopata, lavora in ambito universitario come docente presso AIMO (Saronno).</p><p>Unita alla passione per lo sport, attualmente riveste la figura di Osteopata e figura medica di riferimento presso la prima squadra di A.C. Pavia 1911.</p>"
   },
   {
-    "id": "11",
+    "id": "12",
     "area": "centro medico",
     "visita": "Visita nutrizionale",
     "servizio": "Nutrizione",
@@ -121,7 +132,7 @@
     "cv": "La Dott.ssa <b>Stefania Tancini</b>, laureata nel 1997 in Biologia presso l’Università degli Studi di Milano, orientamento fisio-patologico, nel 1998 consegue l’abilitazione all’esercizio della professione. <p>Dopo lunga esperienza nell’ambito delle analisi clinico-biologiche ha ottenuto un master in Alimentazione Umana seguito da un periodo di Tirocinio presso il Servizio Dietetico e Nutrizione Clinica dell’Ospedale San Carlo di Milano.</p><p>Membro della SINU (Società Italiana Nutrizione Umana) dal 2012 collabora come nutrizionista presso vari centri medici, palestre e centri estetici.</p><p>La sana alimentazione intesa non come privazione ma come scelta consapevole, con il fine primario di partire dalla corretta nutrizione per la prevenzione delle principali malattie metaboliche e il raggiungimento dell’equilibrio psico-fisico attraverso uno stile di vita corretto."
   },
   {
-    "id": "12",
+    "id": "13",
     "area": "centro medico",
     "visita": "Visita cardiologica",
     "servizio": "Cardiologia",
@@ -132,12 +143,12 @@
     "cv": "Specialista in Cardiologia. Master II° livello in “Cardiologia dello sport” c/o Università di Padova Quindicinnale esperienza in ambito ospedaliero, ove è stato in forza al UOS di Elettrofisiologia ed Elettrostimolazione. <br><br>Ha ricoperto l’incarico di Alta Professione in Unità di Cure Coronariche ed è stato Referente dell’Ambulatorio di ECG dinamico sec. Holter e di Ecocolordoppler TSA mirato al follow unp post-PTA carotidea. <br>Attuale consulente per l’Istituto Auxologico Italiano. Vanta oltre 50 pubblicazioni su riviste scientifiche nazionali ed internazionali.<br><br><p><a href='https://www.eticura.it/' target='blank' class='link'>eticura.it</a></p>"
   },
   {
-    "id": "13",
+    "id": "14",
     "area": "centro medico",
     "visita": "Colloquio psicologico",
     "servizio": "Psicoterapia",
     "nome": "Sara",
-    "cognome": "Anniballi",
+    "cognome": "Annibali",
     "specializzazione": "Psicoterapeuta",
     "ruolo": "Collaboratrice esterna",
     "cv": "Integro la psicologia con la promozione del benessere e la prevenzione, sostenendo i processi di cambiamento e crescita nei diversi momenti del ciclo di vita.<br>Mi sono laureata con lode in Psicologia all’Università di Padova e ho conseguito un Master in Artiterapie e Terapie Espressive presso l’Università Cattolica di Milano, con specializzazione in Danzamovimentoterapia. Attualmente sto completando la formazione in Psicoterapia Integrata (SPI).<br><br>Offro supporto psicologico per ansia, stress, disturbi dell’alimentazione e ossessivo-compulsivi, con un’attenzione particolare alla promozione del benessere in un’ottica integrata e personalizzata. <br>Il mio approccio si fonda su empatia, ascolto attivo e alleanza terapeutica, con l’obiettivo di offrire uno spazio sicuro e rispettoso dove prendersi cura di sé.<br><br><p><a href='https://www.miodottore.it/sara-annibali/psicologo/milano' target='blank' class='link'>saraannibali.it</a></p>"
